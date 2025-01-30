@@ -1,3 +1,11 @@
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.csproj.AssemblyReference.cache
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.AssemblyInfoInputs.cache
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.AssemblyInfo.cs
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.csproj.CoreCompileInputs.cache
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.sourcelink.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\appsettings.Development.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\appsettings.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.staticwebassets.endpoints.json
@@ -110,13 +118,6 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewComm
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Infrastructure.pdb
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Persistence.pdb
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Domain.pdb
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.csproj.AssemblyReference.cache
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.AssemblyInfoInputs.cache
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.AssemblyInfo.cs
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.csproj.CoreCompileInputs.cache
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\scopedcss\bundle\NewCommerce.Api.styles.css
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\staticwebassets.development.json

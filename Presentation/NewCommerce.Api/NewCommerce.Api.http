@@ -1,4 +1,4 @@
-@NewCommerce.Api_HostAddress = http://localhost:5023
+@NewCommerce.Api_HostAddress = http://localhost:5072
 
 GET {{NewCommerce.Api_HostAddress}}/weatherforecast/
 Accept: application/json
