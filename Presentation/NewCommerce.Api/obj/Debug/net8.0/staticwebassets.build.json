@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VyVwsOyaJ2SgPW14OvjAldk3ePAFq3vFSei1YaQQALw=",
+  "Source": "NewCommerce.Api",
+  "BasePath": "_content/NewCommerce.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
