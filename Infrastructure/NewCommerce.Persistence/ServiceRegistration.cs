@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NewCommerce.Application.Repositoryes;
 using NewCommerce.Persistence.Context;
 using NewCommerce.Persistence.Repositoryes;
 using System;
@@ -17,9 +18,16 @@ namespace NewCommerce.Persistence
         {
           
             services.AddDbContext<NewCommerceDb>(options => options.UseNpgsql(Configuration.ConnectionString));
-          //  services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
-        
-        
+            
+            services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
+            services.AddScoped<IProductReadRepository, ProductReadRepository>();
+            services.AddScoped<IOrderReadReposiyory, OrderReadRepository>();
+
+            services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
+            services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
+            services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
+
+
         }
     }
 }

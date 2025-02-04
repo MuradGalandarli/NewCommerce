@@ -17,3 +17,4 @@ D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.pdb
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.genruntimeconfig.cache
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\ref\NewCommerce.Persistence.dll
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.sourcelink.json

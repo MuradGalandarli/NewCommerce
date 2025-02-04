@@ -9,3 +9,4 @@ D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\refint\NewCommerce.Domain.dll
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.pdb
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\ref\NewCommerce.Domain.dll
+D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.sourcelink.json

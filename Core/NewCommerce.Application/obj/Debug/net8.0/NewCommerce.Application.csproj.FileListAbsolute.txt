@@ -13,3 +13,4 @@ D:\GitHub test\NewCommerce\Core\NewCommerce.Application\obj\Debug\net8.0\NewComm
 D:\GitHub test\NewCommerce\Core\NewCommerce.Application\obj\Debug\net8.0\refint\NewCommerce.Application.dll
 D:\GitHub test\NewCommerce\Core\NewCommerce.Application\obj\Debug\net8.0\NewCommerce.Application.pdb
 D:\GitHub test\NewCommerce\Core\NewCommerce.Application\obj\Debug\net8.0\ref\NewCommerce.Application.dll
+D:\GitHub test\NewCommerce\Core\NewCommerce.Application\obj\Debug\net8.0\NewCommerce.Application.sourcelink.json

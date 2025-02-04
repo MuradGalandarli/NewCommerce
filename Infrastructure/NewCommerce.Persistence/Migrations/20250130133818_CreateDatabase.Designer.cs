@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace NewCommerce.Persistence.Migrations
 {
     [DbContext(typeof(NewCommerceDb))]
-    [Migration("20250125145151_CreateDatabase")]
+    [Migration("20250130133818_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />
@@ -20,7 +20,7 @@ namespace NewCommerce.Persistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.1")
+                .HasAnnotation("ProductVersion", "8.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -86,8 +86,8 @@ namespace NewCommerce.Persistence.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
-                    b.Property<long>("Price")
-                        .HasColumnType("bigint");
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
 
                     b.Property<int>("Stock")
                         .HasColumnType("integer");
@@ -115,7 +115,7 @@ namespace NewCommerce.Persistence.Migrations
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
                 {
                     b.HasOne("NewCommerce.Domain.Entitys.Customer", "Customer")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("CustomerId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -136,6 +136,11 @@ namespace NewCommerce.Persistence.Migrations
                         .HasForeignKey("ProductsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.Customer", b =>
+                {
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

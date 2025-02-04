@@ -15,3 +15,4 @@ D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\n
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\refint\NewCommerce.Infrastructure.dll
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.pdb
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\ref\NewCommerce.Infrastructure.dll
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.sourcelink.json
