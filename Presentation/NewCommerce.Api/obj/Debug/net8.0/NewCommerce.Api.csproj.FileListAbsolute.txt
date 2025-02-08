@@ -135,3 +135,7 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\refint\
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.pdb
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.genruntimeconfig.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\ref\NewCommerce.Api.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.staticwebassets.runtime.json

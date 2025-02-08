@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/1251257480 .3w20n6qo9e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\1251257480 .pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/product-images/1251257480 .pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 11:16:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/1251257480 .pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\1251257480 .pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 11:16:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/283499579 .3w20n6qo9e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\283499579 .pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/product-images/283499579 .pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 11:14:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/283499579 .pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\283499579 .pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 11:14:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/839492519 .3w20n6qo9e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\839492519 .pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/product-images/839492519 .pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 11:14:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/839492519 .pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\839492519 .pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 11:14:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

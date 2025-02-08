@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "VyVwsOyaJ2SgPW14OvjAldk3ePAFq3vFSei1YaQQALw=",
+  "Hash": "QMvZUnQ5Gm/I7k75opG3YH0uBD48ShQ7vTGwxVs4tLI=",
   "Source": "NewCommerce.Api",
   "BasePath": "_content/NewCommerce.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NewCommerce.Api\\wwwroot",
+      "Source": "NewCommerce.Api",
+      "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
+      "BasePath": "_content/NewCommerce.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

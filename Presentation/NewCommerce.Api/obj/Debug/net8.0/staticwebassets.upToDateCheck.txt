@@ -1,0 +1,3 @@
+wwwroot\resource\product-images\1251257480 .pdf
+wwwroot\resource\product-images\283499579 .pdf
+wwwroot\resource\product-images\839492519 .pdf

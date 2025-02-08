@@ -1,12 +1,55 @@
 [
   {
     "ContainingType": "NewCommerce.Api.Controllers.ProductController",
-    "Method": "AddProduct",
+    "Method": "GetAllProduct",
     "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "Upload",
+    "RelativePath": "api/Product/action",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "formFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Product/ada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NewCommerce.Application.ViewModels.Products.VM_Create_Products",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

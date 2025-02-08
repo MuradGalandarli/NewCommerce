@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\1251257480 .pdf",
+      "PackagePath": "staticwebassets\\resource\\product-images\\1251257480 .pdf"
+    },
+    {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\283499579 .pdf",
+      "PackagePath": "staticwebassets\\resource\\product-images\\283499579 .pdf"
+    },
+    {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\839492519 .pdf",
+      "PackagePath": "staticwebassets\\resource\\product-images\\839492519 .pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NewCommerce.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NewCommerce.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NewCommerce.Api.props",
+      "PackagePath": "build\\NewCommerce.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NewCommerce.Api.props",
+      "PackagePath": "buildMultiTargeting\\NewCommerce.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NewCommerce.Api.props",
+      "PackagePath": "buildTransitive\\NewCommerce.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
