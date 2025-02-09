@@ -1,5 +1,416 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "resource/Invoice/MuradGalandarli-1.3w20n6qo9e.pdf",
+      "AssetFile": "resource/Invoice/MuradGalandarli-1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:20:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "resource/Invoice/MuradGalandarli-1.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "resource/Invoice/MuradGalandarli-1.pdf",
+      "AssetFile": "resource/Invoice/MuradGalandarli-1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:20:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    },
+    {
+      "Route": "resource/Invoice/MuradGalandarli-2.3w20n6qo9e.pdf",
+      "AssetFile": "resource/Invoice/MuradGalandarli-2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:23:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "resource/Invoice/MuradGalandarli-2.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "resource/Invoice/MuradGalandarli-2.pdf",
+      "AssetFile": "resource/Invoice/MuradGalandarli-2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:23:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    },
+    {
+      "Route": "resource/Invoice/MuradGalandarli-3.3w20n6qo9e.pdf",
+      "AssetFile": "resource/Invoice/MuradGalandarli-3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 14:15:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "resource/Invoice/MuradGalandarli-3.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "resource/Invoice/MuradGalandarli-3.pdf",
+      "AssetFile": "resource/Invoice/MuradGalandarli-3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 14:15:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    },
+    {
+      "Route": "resource/product-images/MuradGalandarli-2.3w20n6qo9e.pdf",
+      "AssetFile": "resource/product-images/MuradGalandarli-2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:15:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "resource/product-images/MuradGalandarli-2.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "resource/product-images/MuradGalandarli-2.pdf",
+      "AssetFile": "resource/product-images/MuradGalandarli-2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:15:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    },
+    {
+      "Route": "resource/product-images/MuradGalandarli.3w20n6qo9e.pdf",
+      "AssetFile": "resource/product-images/MuradGalandarli.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:13:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "resource/product-images/MuradGalandarli.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "resource/product-images/MuradGalandarli.pdf",
+      "AssetFile": "resource/product-images/MuradGalandarli.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 12:13:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    }
+  ]
 }

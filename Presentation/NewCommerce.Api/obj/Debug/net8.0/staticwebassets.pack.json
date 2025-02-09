@@ -1,16 +1,24 @@
 {
   "Files": [
     {
-      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\1251257480 .pdf",
-      "PackagePath": "staticwebassets\\resource\\product-images\\1251257480 .pdf"
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-1.pdf",
+      "PackagePath": "staticwebassets\\resource\\Invoice\\MuradGalandarli-1.pdf"
     },
     {
-      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\283499579 .pdf",
-      "PackagePath": "staticwebassets\\resource\\product-images\\283499579 .pdf"
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-2.pdf",
+      "PackagePath": "staticwebassets\\resource\\Invoice\\MuradGalandarli-2.pdf"
     },
     {
-      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\839492519 .pdf",
-      "PackagePath": "staticwebassets\\resource\\product-images\\839492519 .pdf"
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-3.pdf",
+      "PackagePath": "staticwebassets\\resource\\Invoice\\MuradGalandarli-3.pdf"
+    },
+    {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli-2.pdf",
+      "PackagePath": "staticwebassets\\resource\\product-images\\MuradGalandarli-2.pdf"
+    },
+    {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli.pdf",
+      "PackagePath": "staticwebassets\\resource\\product-images\\MuradGalandarli.pdf"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NewCommerce.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

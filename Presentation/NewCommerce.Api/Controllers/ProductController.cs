@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using NewCommerce.Application;
 using NewCommerce.Application.Repositoryes;
 using NewCommerce.Application.RequestParameters;
 using NewCommerce.Application.Services;
 using NewCommerce.Application.ViewModels.Products;
+using NewCommerce.Domain.Entitys.Common;
 
 namespace NewCommerce.Api.Controllers
 {
@@ -16,15 +18,34 @@ namespace NewCommerce.Api.Controllers
         private readonly IProductReadRepository _productRead;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IFileService _fileService;
-        public ProductController(IProductWriteRepository product,
+        
+        private readonly IFileReadRepository _fileReadRepository;
+        private readonly IFileWriteRepository _fileWriteRepository;
+        private readonly IInvoiceFileReadRepository _invoiceFileReadRepository;
+        private readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
+        private readonly IProductImageWriteRepository _productWriteRepository;
+        private readonly IProductImageReadRepository _productReadRepository;
+
+        public ProductController(IProductWriteRepository product, 
             IProductReadRepository productRead,
             IWebHostEnvironment webHostEnvironment,
-             IFileService fileService)
+            IFileService fileService, IFileReadRepository fileReadRepository, 
+            IFileWriteRepository fileWriteRepository, 
+            IInvoiceFileReadRepository invoiceFileReadRepository,
+            IInvoiceFileWriteRepository invoiceFileWriteRepository, 
+            IProductImageWriteRepository productWriteRepository,
+            IProductImageReadRepository productReadRepository)
         {
             _product = product;
             _productRead = productRead;
             _webHostEnvironment = webHostEnvironment;
             _fileService = fileService;
+            _fileReadRepository = fileReadRepository;
+            _fileWriteRepository = fileWriteRepository;
+            _invoiceFileReadRepository = invoiceFileReadRepository;
+            _invoiceFileWriteRepository = invoiceFileWriteRepository;
+            _productWriteRepository = productWriteRepository;
+            _productReadRepository = productReadRepository;
         }
 
         [HttpGet]
@@ -58,12 +79,36 @@ namespace NewCommerce.Api.Controllers
         [HttpPost("action")]
         public async Task<IActionResult> Upload( IFormFile formFile)
          {
-            await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            /*var datas = await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            await _productWriteRepository.AddRangeAsync(datas.Select(x=> new ProductImageFile   ()
+            {
+                FileName = x.fileName,
+                Path = x.path
+            }).ToList());
+
+            await _productWriteRepository.SaveAsync();*/
+
+            /* var datas = await _fileService.UploadAsync("resource/Invoice", Request.Form.Files);
+             await _invoiceFileWriteRepository.AddRangeAsync(datas.Select(x => new InvoiceFile()
+             {
+                 FileName = x.fileName,
+                 Path = x.path
+             }).ToList());
+
+             await _productWriteRepository.SaveAsync();*/
+
+            var datas = await _fileService.UploadAsync("resource/Invoice", Request.Form.Files);
+            await _fileWriteRepository.AddRangeAsync(datas.Select(x => new NewCommerce.Domain.Entitys.Common.File()
+            {
+                FileName = x.fileName,
+                Path = x.path
+            }).ToList());
+
+            await _fileWriteRepository.SaveAsync();
 
             return Ok();
         }
 
-
-
+       
     }
 }

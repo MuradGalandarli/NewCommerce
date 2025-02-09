@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NewCommerce.Application;
 using NewCommerce.Application.Repositoryes;
 using NewCommerce.Persistence.Context;
 using NewCommerce.Persistence.Repositoryes;
+using NewCommerce.Persistence.Repositoryes.InvoiceFile;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +29,13 @@ namespace NewCommerce.Persistence
             services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
 
+            services.AddScoped<IFileReadRepository, FileReadRepository>();
+            services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
+            services.AddScoped<IProductImageReadRepository, ProductImageReadRepository>();
+
+            services.AddScoped<IFileWriteRepository, FileWriteRepository>();
+            services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+            services.AddScoped<IProductImageWriteRepository, ProductImageWriteRepository>();
 
         }
     }
