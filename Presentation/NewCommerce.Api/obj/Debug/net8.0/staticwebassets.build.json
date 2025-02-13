@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3qKXQVlkDqI4zJ84dopCt9NRNyYk1l/s6fUKP752JYA=",
+  "Hash": "h8GEBORQ/p9YWWyqWaEjfqk6bgegYqPN5Mi48jj3xEQ=",
   "Source": "NewCommerce.Api",
   "BasePath": "_content/NewCommerce.Api",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-1.pdf",
+      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli.pdf",
       "SourceId": "NewCommerce.Api",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
       "BasePath": "_content/NewCommerce.Api",
-      "RelativePath": "resource/Invoice/MuradGalandarli-1#[.{fingerprint}]?.pdf",
+      "RelativePath": "files/MuradGalandarli#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35,15 +35,15 @@
       "Integrity": "o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\Invoice\\MuradGalandarli-1.pdf"
+      "OriginalItemSpec": "wwwroot\\files\\MuradGalandarli.pdf"
     },
     {
-      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-2.pdf",
+      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-2.pdf",
       "SourceId": "NewCommerce.Api",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
       "BasePath": "_content/NewCommerce.Api",
-      "RelativePath": "resource/Invoice/MuradGalandarli-2#[.{fingerprint}]?.pdf",
+      "RelativePath": "files/MuradGalandarli-2#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -56,15 +56,15 @@
       "Integrity": "o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\Invoice\\MuradGalandarli-2.pdf"
+      "OriginalItemSpec": "wwwroot\\files\\MuradGalandarli-2.pdf"
     },
     {
-      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-3.pdf",
+      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-3.pdf",
       "SourceId": "NewCommerce.Api",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
       "BasePath": "_content/NewCommerce.Api",
-      "RelativePath": "resource/Invoice/MuradGalandarli-3#[.{fingerprint}]?.pdf",
+      "RelativePath": "files/MuradGalandarli-3#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,55 +77,13 @@
       "Integrity": "o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\Invoice\\MuradGalandarli-3.pdf"
-    },
-    {
-      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli.pdf",
-      "SourceId": "NewCommerce.Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
-      "BasePath": "_content/NewCommerce.Api",
-      "RelativePath": "resource/product-images/MuradGalandarli#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3w20n6qo9e",
-      "Integrity": "o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\MuradGalandarli.pdf"
-    },
-    {
-      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli-2.pdf",
-      "SourceId": "NewCommerce.Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
-      "BasePath": "_content/NewCommerce.Api",
-      "RelativePath": "resource/product-images/MuradGalandarli-2#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3w20n6qo9e",
-      "Integrity": "o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\resource\\product-images\\MuradGalandarli-2.pdf"
+      "OriginalItemSpec": "wwwroot\\files\\MuradGalandarli-3.pdf"
     }
   ],
   "Endpoints": [
     {
-      "Route": "resource/Invoice/MuradGalandarli-1.3w20n6qo9e.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-1.pdf",
+      "Route": "files/MuradGalandarli.3w20n6qo9e.pdf",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -146,7 +104,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:20:48 GMT"
+          "Value": "Thu, 13 Feb 2025 08:30:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -160,7 +118,7 @@
         },
         {
           "Name": "label",
-          "Value": "resource/Invoice/MuradGalandarli-1.pdf"
+          "Value": "files/MuradGalandarli.pdf"
         },
         {
           "Name": "integrity",
@@ -169,8 +127,8 @@
       ]
     },
     {
-      "Route": "resource/Invoice/MuradGalandarli-1.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-1.pdf",
+      "Route": "files/MuradGalandarli.pdf",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -191,7 +149,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:20:48 GMT"
+          "Value": "Thu, 13 Feb 2025 08:30:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -206,8 +164,8 @@
       ]
     },
     {
-      "Route": "resource/Invoice/MuradGalandarli-2.3w20n6qo9e.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-2.pdf",
+      "Route": "files/MuradGalandarli-2.3w20n6qo9e.pdf",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-2.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -228,7 +186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:23:29 GMT"
+          "Value": "Thu, 13 Feb 2025 08:30:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -242,7 +200,7 @@
         },
         {
           "Name": "label",
-          "Value": "resource/Invoice/MuradGalandarli-2.pdf"
+          "Value": "files/MuradGalandarli-2.pdf"
         },
         {
           "Name": "integrity",
@@ -251,8 +209,8 @@
       ]
     },
     {
-      "Route": "resource/Invoice/MuradGalandarli-2.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-2.pdf",
+      "Route": "files/MuradGalandarli-2.pdf",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-2.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -273,7 +231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:23:29 GMT"
+          "Value": "Thu, 13 Feb 2025 08:30:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -288,8 +246,8 @@
       ]
     },
     {
-      "Route": "resource/Invoice/MuradGalandarli-3.3w20n6qo9e.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-3.pdf",
+      "Route": "files/MuradGalandarli-3.3w20n6qo9e.pdf",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-3.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -310,7 +268,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 14:15:48 GMT"
+          "Value": "Thu, 13 Feb 2025 08:32:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -324,7 +282,7 @@
         },
         {
           "Name": "label",
-          "Value": "resource/Invoice/MuradGalandarli-3.pdf"
+          "Value": "files/MuradGalandarli-3.pdf"
         },
         {
           "Name": "integrity",
@@ -333,8 +291,8 @@
       ]
     },
     {
-      "Route": "resource/Invoice/MuradGalandarli-3.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\Invoice\\MuradGalandarli-3.pdf",
+      "Route": "files/MuradGalandarli-3.pdf",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-3.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -355,171 +313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 14:15:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
-        }
-      ]
-    },
-    {
-      "Route": "resource/product-images/MuradGalandarli.3w20n6qo9e.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "316474"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:13:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3w20n6qo9e"
-        },
-        {
-          "Name": "label",
-          "Value": "resource/product-images/MuradGalandarli.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
-        }
-      ]
-    },
-    {
-      "Route": "resource/product-images/MuradGalandarli.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "316474"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:13:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
-        }
-      ]
-    },
-    {
-      "Route": "resource/product-images/MuradGalandarli-2.3w20n6qo9e.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli-2.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "316474"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:15:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3w20n6qo9e"
-        },
-        {
-          "Name": "label",
-          "Value": "resource/product-images/MuradGalandarli-2.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
-        }
-      ]
-    },
-    {
-      "Route": "resource/product-images/MuradGalandarli-2.pdf",
-      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\resource\\product-images\\MuradGalandarli-2.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "316474"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 08 Feb 2025 12:15:22 GMT"
+          "Value": "Thu, 13 Feb 2025 08:32:04 GMT"
         },
         {
           "Name": "Cache-Control",

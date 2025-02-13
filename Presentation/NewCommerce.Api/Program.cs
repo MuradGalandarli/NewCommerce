@@ -1,8 +1,12 @@
 
 using FluentValidation.AspNetCore;
+using NewCommerce.Application.Abstractions.Storage;
+using NewCommerce.Application.Abstractions.Storage.Local;
 using NewCommerce.Application.Validators.Products;
 using NewCommerce.Infrastructure;
 using NewCommerce.Infrastructure.Filters;
+using NewCommerce.Infrastructure.Services;
+using NewCommerce.Infrastructure.Services.Storage.Local;
 using NewCommerce.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +14,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
+
+
+
+ //builder.Services.AddStorage<AzureStorage>();
+
+  builder.Services.AddStorage<LocalStorage>();
+
+
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
 policy.AllowAnyOrigin()
 .AllowAnyHeader().
@@ -28,7 +40,6 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 
 
 var app = builder.Build();

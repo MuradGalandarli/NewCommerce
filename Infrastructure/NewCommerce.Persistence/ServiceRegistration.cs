@@ -36,6 +36,7 @@ namespace NewCommerce.Persistence
             services.AddScoped<IFileWriteRepository, FileWriteRepository>();
             services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
             services.AddScoped<IProductImageWriteRepository, ProductImageWriteRepository>();
+            
 
         }
     }

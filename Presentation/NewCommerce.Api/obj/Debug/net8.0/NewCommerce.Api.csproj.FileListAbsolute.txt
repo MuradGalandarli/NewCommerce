@@ -8,12 +8,19 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewComm
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.sourcelink.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\appsettings.Development.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\appsettings.json
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.staticwebassets.runtime.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.staticwebassets.endpoints.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.exe
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.deps.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.runtimeconfig.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.pdb
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Azure.Core.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Azure.Storage.Common.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Humanizer.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -50,6 +57,7 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Npgsql.
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.ClientModel.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.CodeDom.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -57,6 +65,8 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.IO.Hashing.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.Memory.Data.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -135,7 +145,3 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\refint\
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.pdb
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.genruntimeconfig.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\ref\NewCommerce.Api.dll
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.dll
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.Api.staticwebassets.runtime.json

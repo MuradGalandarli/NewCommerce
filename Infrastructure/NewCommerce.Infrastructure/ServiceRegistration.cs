@@ -1,6 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using NewCommerce.Application.Abstractions.Storage;
+using NewCommerce.Application.Abstractions.Storage.Azure;
+using NewCommerce.Application.Abstractions.Storage.Local;
 using NewCommerce.Application.Services;
 using NewCommerce.Infrastructure.Services;
+using NewCommerce.Infrastructure.Services.Storage;
+using NewCommerce.Infrastructure.Services.Storage.Local;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +18,18 @@ namespace NewCommerce.Infrastructure
     {
         public static void AddInfrastructureServices( this IServiceCollection services)
         {
-            services.AddScoped<IFileService, FileService>();
-        
+            services.AddScoped<IStorageService, StorageService>();
+
+           // services.AddScoped<IAzureStorage, AzureStorage> ();
+
+
+
+
         }
+
+        public static void AddStorage<T> (this IServiceCollection service) where T : Storages ,IStorage
+        {
+            service.AddScoped<IStorage, T>();
+        } 
     }
 }

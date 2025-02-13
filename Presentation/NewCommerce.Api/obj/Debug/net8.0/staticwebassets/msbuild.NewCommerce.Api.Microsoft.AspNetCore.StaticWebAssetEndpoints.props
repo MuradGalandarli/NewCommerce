@@ -1,64 +1,40 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-1.3w20n6qo9e.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\Invoice\MuradGalandarli-1.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/files/MuradGalandarli-2.3w20n6qo9e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\MuradGalandarli-2.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-1.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:20:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/files/MuradGalandarli-2.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 08:30:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-1.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\Invoice\MuradGalandarli-1.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/files/MuradGalandarli-2.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\MuradGalandarli-2.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:20:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 08:30:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-2.3w20n6qo9e.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\Invoice\MuradGalandarli-2.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/files/MuradGalandarli-3.3w20n6qo9e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\MuradGalandarli-3.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-2.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:23:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/files/MuradGalandarli-3.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 08:32:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-2.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\Invoice\MuradGalandarli-2.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:23:29 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-3.3w20n6qo9e.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\Invoice\MuradGalandarli-3.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-3.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 14:15:48 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/Invoice/MuradGalandarli-3.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\Invoice\MuradGalandarli-3.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/files/MuradGalandarli-3.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\MuradGalandarli-3.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 14:15:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 08:32:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/MuradGalandarli-2.3w20n6qo9e.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\MuradGalandarli-2.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/files/MuradGalandarli.3w20n6qo9e.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\MuradGalandarli.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/product-images/MuradGalandarli-2.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:15:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/files/MuradGalandarli.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 08:30:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/MuradGalandarli-2.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\MuradGalandarli-2.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:15:22 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/MuradGalandarli.3w20n6qo9e.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\MuradGalandarli.pdf'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3w20n6qo9e"},{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="},{"Name":"label","Value":"_content/NewCommerce.Api/resource/product-images/MuradGalandarli.pdf"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:13:50 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/resource/product-images/MuradGalandarli.pdf">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\resource\product-images\MuradGalandarli.pdf'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/NewCommerce.Api/files/MuradGalandarli.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\MuradGalandarli.pdf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 12:13:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316474"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022o/2rBe\u002BWRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 08:30:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

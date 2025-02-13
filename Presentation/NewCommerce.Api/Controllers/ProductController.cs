@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NewCommerce.Application;
+using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Repositoryes;
 using NewCommerce.Application.RequestParameters;
 using NewCommerce.Application.Services;
@@ -17,7 +18,7 @@ namespace NewCommerce.Api.Controllers
         private readonly IProductWriteRepository _product;
         private readonly IProductReadRepository _productRead;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        private readonly IFileService _fileService;
+       
         
         private readonly IFileReadRepository _fileReadRepository;
         private readonly IFileWriteRepository _fileWriteRepository;
@@ -25,27 +26,35 @@ namespace NewCommerce.Api.Controllers
         private readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
         private readonly IProductImageWriteRepository _productWriteRepository;
         private readonly IProductImageReadRepository _productReadRepository;
+        private readonly IStorageService _storageService;
+        private readonly IProductImageWriteRepository _productImageFileWriteRepository;
 
         public ProductController(IProductWriteRepository product, 
             IProductReadRepository productRead,
             IWebHostEnvironment webHostEnvironment,
-            IFileService fileService, IFileReadRepository fileReadRepository, 
+            IFileReadRepository fileReadRepository, 
             IFileWriteRepository fileWriteRepository, 
             IInvoiceFileReadRepository invoiceFileReadRepository,
             IInvoiceFileWriteRepository invoiceFileWriteRepository, 
             IProductImageWriteRepository productWriteRepository,
-            IProductImageReadRepository productReadRepository)
+            IProductImageReadRepository productReadRepository,
+             IStorageService storageService,
+             IProductImageWriteRepository productImageFileWriteRepository
+             
+            )
         {
             _product = product;
             _productRead = productRead;
             _webHostEnvironment = webHostEnvironment;
-            _fileService = fileService;
+           
             _fileReadRepository = fileReadRepository;
             _fileWriteRepository = fileWriteRepository;
             _invoiceFileReadRepository = invoiceFileReadRepository;
             _invoiceFileWriteRepository = invoiceFileWriteRepository;
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _storageService = storageService;
+            _productImageFileWriteRepository = productImageFileWriteRepository;
         }
 
         [HttpGet]
@@ -79,32 +88,20 @@ namespace NewCommerce.Api.Controllers
         [HttpPost("action")]
         public async Task<IActionResult> Upload( IFormFile formFile)
          {
-            /*var datas = await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
-            await _productWriteRepository.AddRangeAsync(datas.Select(x=> new ProductImageFile   ()
+
+                var datas = await _storageService.UploadAsync("files", Request.Form.Files);
+
+           // var datas = await _storageService.UploadAsync("resource/files", Request.Form.Files);
+          
+            await _productImageFileWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
             {
-                FileName = x.fileName,
-                Path = x.path
+                FileName = d.fileName,
+                Path = d.pathOrContainerName,
+                Storage = _storageService.StorageName
             }).ToList());
+            await _productImageFileWriteRepository.SaveAsync();
 
-            await _productWriteRepository.SaveAsync();*/
-
-            /* var datas = await _fileService.UploadAsync("resource/Invoice", Request.Form.Files);
-             await _invoiceFileWriteRepository.AddRangeAsync(datas.Select(x => new InvoiceFile()
-             {
-                 FileName = x.fileName,
-                 Path = x.path
-             }).ToList());
-
-             await _productWriteRepository.SaveAsync();*/
-
-            var datas = await _fileService.UploadAsync("resource/Invoice", Request.Form.Files);
-            await _fileWriteRepository.AddRangeAsync(datas.Select(x => new NewCommerce.Domain.Entitys.Common.File()
-            {
-                FileName = x.fileName,
-                Path = x.path
-            }).ToList());
-
-            await _fileWriteRepository.SaveAsync();
+          
 
             return Ok();
         }

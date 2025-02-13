@@ -5,8 +5,8 @@ D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.AssemblyInfoInputs.cache
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.AssemblyInfo.cs
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.sourcelink.json
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.dll
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\refint\NewCommerce.Domain.dll
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.pdb
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\ref\NewCommerce.Domain.dll
-D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.sourcelink.json

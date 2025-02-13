@@ -1,5 +1,3 @@
-wwwroot\resource\Invoice\MuradGalandarli-1.pdf
-wwwroot\resource\Invoice\MuradGalandarli-2.pdf
-wwwroot\resource\Invoice\MuradGalandarli-3.pdf
-wwwroot\resource\product-images\MuradGalandarli.pdf
-wwwroot\resource\product-images\MuradGalandarli-2.pdf
+wwwroot\files\MuradGalandarli.pdf
+wwwroot\files\MuradGalandarli-2.pdf
+wwwroot\files\MuradGalandarli-3.pdf
