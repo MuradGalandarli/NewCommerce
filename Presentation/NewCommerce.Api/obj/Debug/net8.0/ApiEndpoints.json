@@ -32,6 +32,11 @@
         "Name": "formFile",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -46,7 +51,44 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "NewCommerce.Application.ViewModels.Products.VM_Create_Products",
+        "Type": "NewCommerce.Application.Features.Commands.CreateProduct.CreateProductCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "DeleteProducyImage",
+    "RelativePath": "api/Product/DeleteProducyImage/{productId}/{imageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "imageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "GetProductImage",
+    "RelativePath": "api/Product/GetProductImage/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

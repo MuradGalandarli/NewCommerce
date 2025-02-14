@@ -3,7 +3,6 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewComm
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.AssemblyInfoInputs.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.AssemblyInfo.cs
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.csproj.CoreCompileInputs.cache
-D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.sourcelink.json
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\appsettings.Development.json
@@ -22,6 +21,9 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentV
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Humanizer.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\MediatR.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll

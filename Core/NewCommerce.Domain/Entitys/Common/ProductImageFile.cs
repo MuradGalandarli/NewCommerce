@@ -8,5 +8,7 @@ namespace NewCommerce.Domain.Entitys.Common
 {
     public class ProductImageFile:File
     {
+       
+        public ICollection<Product> Products { get; set; }
     }
 }

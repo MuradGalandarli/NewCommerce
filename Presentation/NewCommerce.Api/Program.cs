@@ -1,5 +1,6 @@
 
 using FluentValidation.AspNetCore;
+using NewCommerce.Application;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Abstractions.Storage.Local;
 using NewCommerce.Application.Validators.Products;
@@ -14,12 +15,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationServices();
 
 
+//builder.Services.AddStorage<AzureStorage>();
 
- //builder.Services.AddStorage<AzureStorage>();
-
-  builder.Services.AddStorage<LocalStorage>();
+builder.Services.AddStorage<LocalStorage>();
 
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>

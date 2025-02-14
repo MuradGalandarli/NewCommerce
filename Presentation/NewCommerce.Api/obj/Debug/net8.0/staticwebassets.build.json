@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h8GEBORQ/p9YWWyqWaEjfqk6bgegYqPN5Mi48jj3xEQ=",
+  "Hash": "s05RW4XReZaxSjFO+zPQXhUaVYWt14jCE/JPhQ+7DU8=",
   "Source": "NewCommerce.Api",
   "BasePath": "_content/NewCommerce.Api",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\download.jpg",
+      "SourceId": "NewCommerce.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\",
+      "BasePath": "_content/NewCommerce.Api",
+      "RelativePath": "files/download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9g3hcx6t8w",
+      "Integrity": "uXsOnNOAN25ZxKPEXayuhYrzFb4yQR2Sx6+xn+HrnoA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\download.jpg"
+    },
     {
       "Identity": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli.pdf",
       "SourceId": "NewCommerce.Api",
@@ -81,6 +102,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "files/download.9g3hcx6t8w.jpg",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uXsOnNOAN25ZxKPEXayuhYrzFb4yQR2Sx6+xn+HrnoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 09:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9g3hcx6t8w"
+        },
+        {
+          "Name": "label",
+          "Value": "files/download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXsOnNOAN25ZxKPEXayuhYrzFb4yQR2Sx6+xn+HrnoA="
+        }
+      ]
+    },
+    {
+      "Route": "files/download.jpg",
+      "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uXsOnNOAN25ZxKPEXayuhYrzFb4yQR2Sx6+xn+HrnoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 09:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uXsOnNOAN25ZxKPEXayuhYrzFb4yQR2Sx6+xn+HrnoA="
+        }
+      ]
+    },
     {
       "Route": "files/MuradGalandarli.3w20n6qo9e.pdf",
       "AssetFile": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli.pdf",

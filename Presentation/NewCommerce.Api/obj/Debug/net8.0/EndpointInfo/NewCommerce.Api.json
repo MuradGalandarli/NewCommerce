@@ -44,17 +44,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/VM_Create_Products"
+                "$ref": "#/components/schemas/CreateProductCommandRequest"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/VM_Create_Products"
+                "$ref": "#/components/schemas/CreateProductCommandRequest"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/VM_Create_Products"
+                "$ref": "#/components/schemas/CreateProductCommandRequest"
               }
             }
           }
@@ -70,6 +70,15 @@
       "post": {
         "tags": [
           "Product"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -91,6 +100,58 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Product/GetProductImage/{id}": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Product/DeleteProducyImage/{productId}/{imageId}": {
+      "delete": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "productId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "imageId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -140,7 +201,7 @@
   },
   "components": {
     "schemas": {
-      "VM_Create_Products": {
+      "CreateProductCommandRequest": {
         "type": "object",
         "properties": {
           "name": {

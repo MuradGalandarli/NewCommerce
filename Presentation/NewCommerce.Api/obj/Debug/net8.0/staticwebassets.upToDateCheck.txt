@@ -1,3 +1,4 @@
+wwwroot\files\download.jpg
 wwwroot\files\MuradGalandarli.pdf
 wwwroot\files\MuradGalandarli-2.pdf
 wwwroot\files\MuradGalandarli-3.pdf

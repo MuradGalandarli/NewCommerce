@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\files\\MuradGalandarli.pdf"
     },
     {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\download.jpg",
+      "PackagePath": "staticwebassets\\files\\download.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NewCommerce.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
