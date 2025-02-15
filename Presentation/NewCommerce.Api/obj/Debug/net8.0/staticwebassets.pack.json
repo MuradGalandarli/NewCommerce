@@ -1,12 +1,20 @@
 {
   "Files": [
     {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-1.pdf",
+      "PackagePath": "staticwebassets\\files\\MuradGalandarli-1.pdf"
+    },
+    {
       "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-2.pdf",
       "PackagePath": "staticwebassets\\files\\MuradGalandarli-2.pdf"
     },
     {
       "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-3.pdf",
       "PackagePath": "staticwebassets\\files\\MuradGalandarli-3.pdf"
+    },
+    {
+      "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli-4.pdf",
+      "PackagePath": "staticwebassets\\files\\MuradGalandarli-4.pdf"
     },
     {
       "Id": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\wwwroot\\files\\MuradGalandarli.pdf",

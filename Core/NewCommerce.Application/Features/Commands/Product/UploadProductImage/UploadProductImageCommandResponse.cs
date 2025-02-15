@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewCommerce.Application.Features.Commands.CreateProduct
+namespace NewCommerce.Application.Features.Commands.Product.UploadProductImage
 {
-    public class CreateProductCommandResponse
-    { 
+    public class UploadProductImageCommandResponse
+    {
     }
 }

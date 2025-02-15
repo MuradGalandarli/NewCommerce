@@ -5,8 +5,14 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.EntityFrameworkCore;
 using NewCommerce.Application;
 using NewCommerce.Application.Abstractions.Storage;
-using NewCommerce.Application.Features.Commands.CreateProduct;
-using NewCommerce.Application.Features.Queries.GetAllProduct;
+using NewCommerce.Application.Features.Commands.Product.CreateProduct;
+using NewCommerce.Application.Features.Commands.Product.DeleteProduct;
+using NewCommerce.Application.Features.Commands.Product.DeleteProductImage;
+using NewCommerce.Application.Features.Commands.Product.UpdateProduct;
+using NewCommerce.Application.Features.Commands.Product.UploadProductImage;
+using NewCommerce.Application.Features.Queries.Product.GetAllProduct;
+using NewCommerce.Application.Features.Queries.Product.GetByIdProduct;
+using NewCommerce.Application.Features.Queries.Product.GetProductImages;
 using NewCommerce.Application.Repositoryes;
 using NewCommerce.Application.RequestParameters;
 using NewCommerce.Application.Services;
@@ -14,6 +20,7 @@ using NewCommerce.Application.ViewModels.Products;
 using NewCommerce.Domain.Entitys;
 using NewCommerce.Domain.Entitys.Common;
 using NewCommerce.Persistence.Repositoryes;
+using System.Runtime.InteropServices;
 
 namespace NewCommerce.Api.Controllers
 {
@@ -68,68 +75,55 @@ namespace NewCommerce.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllProduct([FromQuery]GetAllProductQueryRequest getAllProductQueryRequest )
+        public async Task<IActionResult> GetAllProduct([FromQuery] GetAllProductQueryRequest getAllProductQueryRequest)
         {
-
-            //  var datass = _productRead.GetAll().ToList();
             var datas = await _mediator.Send(getAllProductQueryRequest);
             return Ok(datas);
         }
 
-        [HttpPost("ada")]
+        [HttpPost("AddProduct")]
         public async Task<IActionResult> AddProduct(CreateProductCommandRequest model)
         {
-          CreateProductCommandResponse status = await _mediator.Send(model);
-            return Ok(status);  
+            CreateProductCommandResponse status = await _mediator.Send(model);
+            return Ok(status);
         }
-
-        [HttpPost("action")]
-        public async Task<IActionResult> Upload(IFormFile formFile, string id)
+        [HttpGet("GetByIdProduct")]
+        public async Task<IActionResult> Get([FromQuery] GetByIdProductQueryRequest getByIdProductQueryRequest)
         {
-
-            var datas = await _storageService.UploadAsync("files", Request.Form.Files);
-
-            // var datas = await _storageService.UploadAsync("resource/files", Request.Form.Files);
-
-            Product product = await _productRead.GetById(id);
-
-            await _productImageFileWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
-            {
-
-                FileName = d.fileName,
-                Path = d.pathOrContainerName,
-                Storage = _storageService.StorageName,
-                Products = new List<Product>() { product }
-
-            }).ToList());
-            await _productImageFileWriteRepository.SaveAsync();
-
+            GetByIdProductQueryResponse data = await _mediator.Send(getByIdProductQueryRequest);
+            return Ok(data);
+        }
+        [HttpPut("ProductUpdate")]
+        public async Task<IActionResult> ProductUpdate(UpdateProductCommandRequest updateProductCommandRequest)
+        {
+            UpdateProductCommandResponse response = await _mediator.Send(updateProductCommandRequest);
+            return Ok();
+        }
+        [HttpDelete("DeleteProduct/{id}")]
+        public async Task<IActionResult> DeleteProduct([FromRoute] DeleteProductCommandRequest deleteProductCommandRequest)
+        {
+            DeleteProductCommandResponse deleteProductCommandResponse = await _mediator.Send(deleteProductCommandRequest);
             return Ok();
         }
 
-        [HttpGet("[action]/{id}")]
-        public async Task<IActionResult> GetProductImage(string id)
+        [HttpPost("action/{id}")]
+        public async Task<IActionResult> Upload([FromRoute] UploadProductImageCommandRequest uploadProductImageCommandRequest)
         {
-            var a = _productRead.Table.Include(p => p.ProductImageFiles).FirstOrDefault(p => p.Id == Guid.Parse(id));
-            var product = _productRead.Table.Include(p => p.ProductImageFiles).FirstOrDefault(p => p.Id == Guid.Parse(id));
-
-
-            return Ok(product.ProductImageFiles.Select(x => new
-            {
-                Path = $"{_configuration["BaseStorageUrl"]}/{x.Path}",
-                x.FileName
-            }));
-
-        }
-        [HttpDelete("[action]/{productId}/{imageId}")]
-        public async Task<IActionResult> DeleteProducyImage(string productId, string imageId)
-        {
-            var product = _productRead.Table.Include(p => p.ProductImageFiles).FirstOrDefault(p => p.Id == Guid.Parse(productId));
-            ProductImageFile productImageFile = product.ProductImageFiles.FirstOrDefault(x => x.Id == Guid.Parse(imageId));
-            _productImageFileWriteRepository.Remove(productImageFile);
-            _productImageFileWriteRepository.SaveAsync();
+            UploadProductImageCommandResponse uploadProductImageCommandResponse = await _mediator.Send(uploadProductImageCommandRequest);
             return Ok();
+        }
 
+        [HttpGet("GetProductIdAllImage")]
+        public async Task<IActionResult> GetProductImage([FromQuery]GetProductImageQueryRequest getProductImageQueryRequest)
+        {
+            List<GetProductImageQueryResponse> getProductImageQueryResponse = await _mediator.Send(getProductImageQueryRequest);
+            return Ok(getProductImageQueryResponse);
+        }
+        [HttpDelete("[action]")]
+        public async Task<IActionResult> DeleteProductImage([FromBody] DeleteProductImageCommandRequest deleteProductImageCommandRequest)
+        {
+            DeleteProductImageCommandResponse deleteProductImageCommandResponse = await _mediator.Send(deleteProductImageCommandRequest);
+            return Ok();
         }
 
     }

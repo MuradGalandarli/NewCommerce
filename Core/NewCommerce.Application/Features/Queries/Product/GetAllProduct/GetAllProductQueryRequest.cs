@@ -7,9 +7,9 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewCommerce.Application.Features.Queries.GetAllProduct
+namespace NewCommerce.Application.Features.Queries.Product.GetAllProduct
 {
-    public class GetAllProductQueryRequest:IRequest<GetAllProductQueryResponse>
+    public class GetAllProductQueryRequest : IRequest<GetAllProductQueryResponse>
     {
         //public Pagination pagination { get; set; }
         public int Page { get; set; } = 0;

@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "files/MuradGalandarli-1.3w20n6qo9e.pdf",
+      "AssetFile": "files/MuradGalandarli-1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 12:22:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "files/MuradGalandarli-1.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "files/MuradGalandarli-1.pdf",
+      "AssetFile": "files/MuradGalandarli-1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 12:22:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    },
+    {
       "Route": "files/MuradGalandarli-2.3w20n6qo9e.pdf",
       "AssetFile": "files/MuradGalandarli-2.pdf",
       "Selectors": [],
@@ -157,6 +239,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Feb 2025 08:32:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        }
+      ]
+    },
+    {
+      "Route": "files/MuradGalandarli-4.3w20n6qo9e.pdf",
+      "AssetFile": "files/MuradGalandarli-4.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 12:24:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3w20n6qo9e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY="
+        },
+        {
+          "Name": "label",
+          "Value": "files/MuradGalandarli-4.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "files/MuradGalandarli-4.pdf",
+      "AssetFile": "files/MuradGalandarli-4.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o/2rBe+WRIdbhgmSve/riypZiq6rGd6hQYfADa6LVsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 12:24:12 GMT"
         }
       ],
       "EndpointProperties": [
