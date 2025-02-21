@@ -17,6 +17,8 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewComm
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Azure.Core.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Azure.Storage.Blobs.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Azure.Storage.Common.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\EntityFramework.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -24,6 +26,11 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Humaniz
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\MediatR.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -33,6 +40,7 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microso
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
@@ -44,6 +52,8 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microso
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll

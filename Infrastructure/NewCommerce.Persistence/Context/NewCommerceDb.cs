@@ -1,11 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using NewCommerce.Domain.Entitys;
 using NewCommerce.Domain.Entitys.Common;
+using NewCommerce.Domain.Identity;
 
 
 namespace NewCommerce.Persistence.Context
 {
-    public class NewCommerceDb : DbContext
+    public class NewCommerceDb : IdentityDbContext<AppUser,AppRole,string>
     {
         public NewCommerceDb(DbContextOptions options) : base(options)
         {

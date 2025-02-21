@@ -1,6 +1,7 @@
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\bin\Debug\net8.0\NewCommerce.Domain.deps.json
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\bin\Debug\net8.0\NewCommerce.Domain.dll
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\bin\Debug\net8.0\NewCommerce.Domain.pdb
+D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.csproj.AssemblyReference.cache
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.AssemblyInfoInputs.cache
 D:\GitHub test\NewCommerce\Core\NewCommerce.Domain\obj\Debug\net8.0\NewCommerce.Domain.AssemblyInfo.cs
