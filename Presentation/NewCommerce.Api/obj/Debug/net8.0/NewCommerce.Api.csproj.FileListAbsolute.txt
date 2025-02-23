@@ -157,3 +157,12 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\refint\
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.pdb
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.genruntimeconfig.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\ref\NewCommerce.Api.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

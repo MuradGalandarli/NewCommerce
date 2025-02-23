@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Abstractions.Storage.Azure;
 using NewCommerce.Application.Abstractions.Storage.Local;
+using NewCommerce.Application.Abstractions.Token;
 using NewCommerce.Application.Services;
 using NewCommerce.Infrastructure.Services;
 using NewCommerce.Infrastructure.Services.Storage;
@@ -19,8 +21,9 @@ namespace NewCommerce.Infrastructure
         public static void AddInfrastructureServices( this IServiceCollection services)
         {
             services.AddScoped<IStorageService, StorageService>();
+            services.AddScoped<ITokenHandler, NewCommerce.Infrastructure.Services. TokenHandler>();
 
-           // services.AddScoped<IAzureStorage, AzureStorage> ();
+            // services.AddScoped<IAzureStorage, AzureStorage> ();
 
 
 

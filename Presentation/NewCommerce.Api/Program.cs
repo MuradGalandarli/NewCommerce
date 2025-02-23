@@ -1,5 +1,7 @@
 
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 using NewCommerce.Application;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Abstractions.Storage.Local;
@@ -9,6 +11,7 @@ using NewCommerce.Infrastructure.Filters;
 using NewCommerce.Infrastructure.Services;
 using NewCommerce.Infrastructure.Services.Storage.Local;
 using NewCommerce.Persistence;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +39,21 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
     ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
 
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer("Admin", options =>
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateAudience = true, 
+            ValidateIssuer = true, 
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true, 
+
+            ValidAudience = builder.Configuration["Token:Audience"],
+            ValidIssuer = builder.Configuration["Token:Issuer"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"]))
+        };
+    });
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

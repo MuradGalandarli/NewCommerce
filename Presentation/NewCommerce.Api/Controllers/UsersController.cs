@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewCommerce.Application.Features.Commands.AppUser.CreateUser;
@@ -6,6 +7,7 @@ using NewCommerce.Application.Features.Commands.AppUser.LoginUser;
 
 namespace NewCommerce.Api.Controllers
 {
+   
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
