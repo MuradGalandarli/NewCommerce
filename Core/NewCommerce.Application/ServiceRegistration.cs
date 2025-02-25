@@ -15,6 +15,7 @@ namespace NewCommerce.Application
          static public void  AddApplicationServices(this IServiceCollection services)
         {
             services.AddMediatR(typeof(ServiceRegistration));
+            services.AddHttpClient();
         }
     }
 }

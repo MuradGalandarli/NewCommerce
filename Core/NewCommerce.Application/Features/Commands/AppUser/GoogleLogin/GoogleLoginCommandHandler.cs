@@ -26,7 +26,7 @@ namespace NewCommerce.Application.Features.Commands.AppUser.GoogleLogin
         {
             var settings = new GoogleJsonWebSignature.ValidationSettings()
             {
-                Audience = new List<string> { "957600947173-p70lrqqhr09h965tdg3590122k70q04c.apps.googleusercontent.com" }
+                Audience = new List<string> { "583317758273-v82q2icbd9767es79btpdafv0kj8bi61.apps.googleusercontent.com" }
             };
 
             var payload = await GoogleJsonWebSignature.ValidateAsync(request.IdToken, settings);
