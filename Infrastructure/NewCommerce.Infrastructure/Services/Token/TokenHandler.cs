@@ -19,7 +19,7 @@ namespace NewCommerce.Infrastructure.Services
             _configuration = configuration;
         }
 
-        public Application.DTOs.Token CreateAccessToken(int minute)
+        public Application.DTOs.Token CreateAccessToken(int secund)
         {
             Application.DTOs.Token token = new();
 
@@ -30,7 +30,7 @@ namespace NewCommerce.Infrastructure.Services
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
 
            
-            token.Expiration = DateTime.UtcNow.AddMinutes(minute);
+            token.Expiration = DateTime.UtcNow.AddMinutes(secund);
             JwtSecurityToken securityToken = new(
                 audience: _configuration["Token:Audience"],
                 issuer: _configuration["Token:Issuer"],

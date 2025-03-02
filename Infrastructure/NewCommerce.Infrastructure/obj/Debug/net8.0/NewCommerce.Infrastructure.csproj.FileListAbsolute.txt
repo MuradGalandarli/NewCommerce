@@ -1,9 +1,3 @@
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.csproj.AssemblyReference.cache
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.AssemblyInfoInputs.cache
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.AssemblyInfo.cs
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.csproj.CoreCompileInputs.cache
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.sourcelink.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\net8.0\NewCommerce.Infrastructure.deps.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\net8.0\NewCommerce.Infrastructure.dll
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\net8.0\NewCommerce.Infrastructure.pdb
@@ -11,6 +5,12 @@ D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\n
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\net8.0\NewCommerce.Domain.dll
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\net8.0\NewCommerce.Application.pdb
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\bin\Debug\net8.0\NewCommerce.Domain.pdb
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.csproj.AssemblyReference.cache
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.AssemblyInfoInputs.cache
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.AssemblyInfo.cs
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.sourcelink.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewComme.254DBBC4.Up2Date
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\NewCommerce.Infrastructure.dll
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\obj\Debug\net8.0\refint\NewCommerce.Infrastructure.dll

@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthController",
+    "Method": "FacebookLogin",
+    "RelativePath": "api/Auth/facebook-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facebookLoginCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthController",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/Auth/google-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "googleLoginCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUserCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.ProductController",
     "Method": "GetAllProduct",
     "RelativePath": "api/Product",
@@ -148,54 +196,6 @@
       {
         "Name": "createUserCommandRequest",
         "Type": "NewCommerce.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
-    "Method": "FacebookLogin",
-    "RelativePath": "api/Users/facebook-login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "facebookLoginCommandRequest",
-        "Type": "NewCommerce.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
-    "Method": "GoogleLogin",
-    "RelativePath": "api/Users/google-login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "googleLoginCommandRequest",
-        "Type": "NewCommerce.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
-    "Method": "Login",
-    "RelativePath": "api/Users/Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginUserCommandRequest",
-        "Type": "NewCommerce.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest",
         "IsRequired": true
       }
     ],

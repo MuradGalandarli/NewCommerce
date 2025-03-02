@@ -1219,7 +1219,6 @@
           "FluentValidation": "11.11.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "FluentValidation.DependencyInjectionExtensions": "11.11.0",
-          "Google.Apis.Auth": "1.69.0",
           "MediatR": "11.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -1260,6 +1259,7 @@
       },
       "NewCommerce.Persistence/1.0.0": {
         "dependencies": {
+          "Google.Apis.Auth": "1.69.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.2",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.Extensions.Configuration": "8.0.0",

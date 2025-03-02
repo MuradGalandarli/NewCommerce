@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Identity;
+using NewCommerce.Application.Abstractions.Services;
+using NewCommerce.Application.DTOs.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,30 +13,33 @@ namespace NewCommerce.Application.Features.Commands.AppUser.CreateUser
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
     {
-        readonly Microsoft.AspNetCore.Identity.UserManager<Domain.Identity.AppUser> _userManager;
-        public CreateUserCommandHandler(Microsoft.AspNetCore.Identity.UserManager<Domain.Identity.AppUser> userManager)
+        readonly IUserService _userService;
+
+        public CreateUserCommandHandler(IUserService userService)
         {
-            _userManager = userManager;
+            _userService = userService;
         }
+
         public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
         {
-            Microsoft.AspNetCore.Identity.IdentityResult result = await _userManager.CreateAsync(new()
+  CreateUserResponse createUserResponse = await _userService.CreateAsync(
+                new()
+                {
+                    Email = request.Email,
+                    NameSurname = request.NameSurname,
+                    Password = request.Password,
+                    PasswordConfirm = request.PasswordConfirm,
+                    Username = request.Username,    
+                    
+                });
+
+            return new()
             {
-                Id = Guid.NewGuid().ToString(),
-                UserName = request.Username,
-                Email = request.Email,
-                NameSurname = request.NameSurname,
-            }, request.Password);
+                Message = createUserResponse.Message,
+                Succeeded = createUserResponse.Succeeded,
 
-            CreateUserCommandResponse response = new() { Succeeded = result.Succeeded };
+            };
 
-            if (result.Succeeded)
-                response.Message = "Kullanıcı başarıyla oluşturulmuştur.";
-            else
-                foreach (var error in result.Errors)
-                    response.Message += $"{error.Code} - {error.Description}\n";
-
-            return response;
         }
     }
 
