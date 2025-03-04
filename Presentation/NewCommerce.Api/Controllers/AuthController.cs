@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using NewCommerce.Application.Features.Commands.AppUser.FacebookLogin;
 using NewCommerce.Application.Features.Commands.AppUser.GoogleLogin;
 using NewCommerce.Application.Features.Commands.AppUser.LoginUser;
+using NewCommerce.Application.Features.Commands.AppUser.RefreshTokenLogin;
 
 namespace NewCommerce.Api.Controllers
 {
@@ -25,6 +26,15 @@ namespace NewCommerce.Api.Controllers
             return Ok(response);
 
         }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> RefreshTokenLogin([FromQuery]RefreshTokenCommendResquest refreshTokenCommendResquest)
+        {
+            RefreshTokenCommendResponse response = await _mediator.Send(refreshTokenCommendResquest);
+            return Ok(response);
+
+        }
+
         [HttpPost("google-login")]
         public async Task<IActionResult> GoogleLogin(GoogleLoginCommandRequest googleLoginCommandRequest)
         {

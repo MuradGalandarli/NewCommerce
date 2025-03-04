@@ -27,14 +27,16 @@ namespace NewCommerce.Persistence.Services
         readonly ITokenHandler _tokenHandler;
         readonly IConfiguration _configuration;
         readonly SignInManager<AppUser> _signInManager;
+        readonly IUserService _userService;
 
-        public AuthService(IHttpClientFactory httpClientFactory, Microsoft.AspNetCore.Identity.UserManager<AppUser> userManager, ITokenHandler tokenHandler, IConfiguration configuration = null, SignInManager<AppUser> signInManager = null)
+        public AuthService(IHttpClientFactory httpClientFactory, Microsoft.AspNetCore.Identity.UserManager<AppUser> userManager, ITokenHandler tokenHandler, IConfiguration configuration = null, SignInManager<AppUser> signInManager = null, IUserService userService = null)
         {
             _httpClient = httpClientFactory.CreateClient();
             _userManager = userManager;
             _tokenHandler = tokenHandler;
             _configuration = configuration;
             _signInManager = signInManager;
+            _userService = userService;
         }
 
         private async Task<Token> CreateUserExternalAsync(AppUser user, string email,string name, Microsoft.AspNetCore.Identity.UserLoginInfo info,int accessTokenLifeTime)
@@ -63,6 +65,8 @@ namespace NewCommerce.Persistence.Services
                 throw new Exception("Invalid external authentication.");
 
             Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime);
+            
+           await _userService.UpdateRefreshTOken(token.RefreshToken,user,token.Expiration,10);
             return token;
         }
 
@@ -123,11 +127,27 @@ namespace NewCommerce.Persistence.Services
             if (result.Succeeded)
             {
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime);
+                await _userService.UpdateRefreshTOken(token.RefreshToken, user, token.Expiration, 10);
                 return token;
               
             }
 
             throw new AuthenticationErrorException();
+        }
+
+        public async Task<Token> RefreshTokenLoginAsync(string refreshToken)
+        {
+          AppUser? user = _userManager.Users.FirstOrDefault(x => x.RefreshToken == refreshToken);
+            if (user != null && user?.RefreshTokenEndDate < DateTime.UtcNow)
+            {
+                Token token = _tokenHandler.CreateAccessToken(15);
+                await _userService.UpdateRefreshTOken(refreshToken, user, token.Expiration, 15);
+                await _userManager.UpdateAsync(user);
+                return token;
+            }
+            else
+                throw new AuthenticationErrorException();
+
         }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.DTOs.User;
+using NewCommerce.Application.Exceptions;
 using NewCommerce.Application.Features.Commands.AppUser.CreateUser;
 using NewCommerce.Domain.Identity;
 using System;
@@ -41,6 +42,19 @@ namespace NewCommerce.Persistence.Services
                     response.Message += $"{error.Code} - {error.Description}\n";
 
             return response;
+        }
+
+        public async Task UpdateRefreshTOken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
+        {
+            if (user != null)
+            {
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenEndDate = accessTokenDate.AddSeconds(addOnAccessTokenDate);
+                await _userManager.UpdateAsync(user);
+
+            }
+            else
+            throw new NotFoundUserException();
         }
     }
 }

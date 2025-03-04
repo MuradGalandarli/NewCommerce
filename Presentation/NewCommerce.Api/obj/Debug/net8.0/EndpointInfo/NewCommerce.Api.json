@@ -36,6 +36,27 @@
         }
       }
     },
+    "/api/Auth/RefreshTokenLogin": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "RefreshToken",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/google-login": {
       "post": {
         "tags": [
