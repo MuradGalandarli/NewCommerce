@@ -25,7 +25,7 @@ using System.Runtime.InteropServices;
 
 namespace NewCommerce.Api.Controllers
 {
-    [Authorize(AuthenticationSchemes = "Admin")]
+  //  [Authorize(AuthenticationSchemes = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase

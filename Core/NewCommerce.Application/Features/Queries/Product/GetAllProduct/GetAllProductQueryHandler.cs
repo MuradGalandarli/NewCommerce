@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Components;
+using Microsoft.Extensions.Logging;
 using NewCommerce.Application.Repositoryes;
 using NewCommerce.Application.RequestParameters;
 using System;
@@ -13,20 +14,25 @@ namespace NewCommerce.Application.Features.Queries.Product.GetAllProduct
     public class GetAllProductQueryHandler : IRequestHandler<GetAllProductQueryRequest, GetAllProductQueryResponse>
     {
         readonly IProductReadRepository _productReadRepository;
-        public GetAllProductQueryHandler(IProductReadRepository _productReadRepository)
+        readonly ILogger<GetAllProductQueryHandler> _logger;
+        public GetAllProductQueryHandler(IProductReadRepository _productReadRepository, ILogger<GetAllProductQueryHandler> logger)
         {
             this._productReadRepository = _productReadRepository;
+            _logger = logger;
         }
         public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
             int totalCount = _productReadRepository.GetAll().Count();
             var datas = _productReadRepository.GetAll(false).Skip(request.Size * request.Page).Take(request.Size);
+            _logger.LogInformation("List edildi");
             return new()
             {
                 Products = datas,
                 TotalCount = totalCount
+                
 
             };
+            
 
         }
     }

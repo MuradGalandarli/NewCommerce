@@ -64,7 +64,7 @@ namespace NewCommerce.Persistence.Services
             else
                 throw new Exception("Invalid external authentication.");
 
-            Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime);
+            Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime,user);
             
            await _userService.UpdateRefreshTOken(token.RefreshToken,user,token.Expiration,10);
             return token;
@@ -126,7 +126,7 @@ namespace NewCommerce.Persistence.Services
             SignInResult result = await _signInManager.CheckPasswordSignInAsync(user,password, false);
             if (result.Succeeded)
             {
-                Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime);
+                Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime,user);
                 await _userService.UpdateRefreshTOken(token.RefreshToken, user, token.Expiration, 10);
                 return token;
               
@@ -140,7 +140,7 @@ namespace NewCommerce.Persistence.Services
           AppUser? user = _userManager.Users.FirstOrDefault(x => x.RefreshToken == refreshToken);
             if (user != null && user?.RefreshTokenEndDate < DateTime.UtcNow)
             {
-                Token token = _tokenHandler.CreateAccessToken(15);
+                Token token = _tokenHandler.CreateAccessToken(15,user);
                 await _userService.UpdateRefreshTOken(refreshToken, user, token.Expiration, 15);
                 await _userManager.UpdateAsync(user);
                 return token;

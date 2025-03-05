@@ -2,10 +2,12 @@
 using Microsoft.IdentityModel.Tokens;
 using NewCommerce.Application.Abstractions.Token;
 using NewCommerce.Application.DTOs;
+using NewCommerce.Domain.Identity;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +23,7 @@ namespace NewCommerce.Infrastructure.Services
             _configuration = configuration;
         }
 
-        public Token CreateAccessToken(int secund)
+        public Token CreateAccessToken(int secund, AppUser appUser)
         {
             Token token = new();
 
@@ -38,7 +40,8 @@ namespace NewCommerce.Infrastructure.Services
                 issuer: _configuration["Token:Issuer"],
                 expires: token.Expiration,
                 notBefore: DateTime.UtcNow,
-                signingCredentials: signingCredentials
+                signingCredentials: signingCredentials,
+                claims:new List<Claim> { new(ClaimTypes.Name,appUser.UserName) }
                 );
 
             JwtSecurityTokenHandler tokenHandler = new();

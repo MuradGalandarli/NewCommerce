@@ -172,3 +172,14 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewComm
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.genruntimeconfig.cache
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\ref\NewCommerce.Api.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\obj\Debug\net8.0\NewCommerce.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.PostgreSQL.dll
