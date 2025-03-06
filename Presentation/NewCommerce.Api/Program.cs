@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using NewCommerce.Api.Configurations.ColumnWriters;
+using NewCommerce.Api.Exrensions;
 using NewCommerce.Application;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Abstractions.Storage.Local;
@@ -111,7 +112,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
+app.ConfigureExcetionHandler<Program>(app.Services.GetRequiredService<ILogger<Program>>());
 app.UseStaticFiles();
 app.UseSerilogRequestLogging();
 app.UseCors();
