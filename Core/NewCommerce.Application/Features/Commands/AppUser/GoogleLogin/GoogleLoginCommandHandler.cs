@@ -22,7 +22,7 @@ namespace NewCommerce.Application.Features.Commands.AppUser.GoogleLogin
 
         public async Task<GoogleLoginCommandResponse> Handle(GoogleLoginCommandRequest request, CancellationToken cancellationToken)
         {
-            Token token = await _externalAuthentication.GoogleLoginAsync(request.IdToken, 5);
+            Token token = await _externalAuthentication.GoogleLoginAsync(request.IdToken, 900);
             return new()
             {
                 Token = token

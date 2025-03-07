@@ -2513,6 +2513,22 @@
         "runtime": {
           "bin/placeholder/NewCommerce.Persistence.dll": {}
         }
+      },
+      "NewCommerce.SignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NewCommerce.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NewCommerce.SignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewCommerce.SignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -7058,6 +7074,11 @@
       "type": "project",
       "path": "../../Infrastructure/NewCommerce.Persistence/NewCommerce.Persistence.csproj",
       "msbuildProject": "../../Infrastructure/NewCommerce.Persistence/NewCommerce.Persistence.csproj"
+    },
+    "NewCommerce.SignalR/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/NewCommerce.SignalR/NewCommerce.SignalR.csproj",
+      "msbuildProject": "../../Infrastructure/NewCommerce.SignalR/NewCommerce.SignalR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7067,6 +7088,7 @@
       "NewCommerce.Application >= 1.0.0",
       "NewCommerce.Infrastructure >= 1.0.0",
       "NewCommerce.Persistence >= 1.0.0",
+      "NewCommerce.SignalR >= 1.0.0",
       "Serilog >= 4.2.0",
       "Serilog.AspNetCore >= 8.0.2",
       "Serilog.Sinks.PostgreSQL >= 2.3.0",
@@ -7113,6 +7135,9 @@
             },
             "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj": {
               "projectPath": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj"
+            },
+            "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.SignalR\\NewCommerce.SignalR.csproj": {
+              "projectPath": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.SignalR\\NewCommerce.SignalR.csproj"
             }
           }
         }

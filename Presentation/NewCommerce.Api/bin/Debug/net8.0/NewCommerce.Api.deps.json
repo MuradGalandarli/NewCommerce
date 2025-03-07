@@ -13,6 +13,7 @@
           "NewCommerce.Application": "1.0.0",
           "NewCommerce.Infrastructure": "1.0.0",
           "NewCommerce.Persistence": "1.0.0",
+          "NewCommerce.SignalR": "1.0.0",
           "Serilog": "4.2.0",
           "Serilog.AspNetCore": "8.0.2",
           "Serilog.Sinks.PostgreSQL": "2.3.0",
@@ -1533,6 +1534,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "NewCommerce.SignalR/1.0.0": {
+        "dependencies": {
+          "NewCommerce.Application": "1.0.0"
+        },
+        "runtime": {
+          "NewCommerce.SignalR.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -2475,6 +2487,11 @@
       "sha512": ""
     },
     "NewCommerce.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewCommerce.SignalR/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

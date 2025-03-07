@@ -22,6 +22,7 @@
     <ProjectReference Include="..\..\Core\NewCommerce.Application\NewCommerce.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\NewCommerce.Infrastructure\NewCommerce.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\NewCommerce.Persistence\NewCommerce.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\NewCommerce.SignalR\NewCommerce.SignalR.csproj" />
   </ItemGroup>
 
   <ItemGroup>

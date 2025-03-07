@@ -141,7 +141,7 @@ namespace NewCommerce.Persistence.Services
             if (user != null && user?.RefreshTokenEndDate < DateTime.UtcNow)
             {
                 Token token = _tokenHandler.CreateAccessToken(15,user);
-                await _userService.UpdateRefreshTOken(refreshToken, user, token.Expiration, 15);
+                await _userService.UpdateRefreshTOken(refreshToken, user, token.Expiration, 300);
                 await _userManager.UpdateAsync(user);
                 return token;
             }

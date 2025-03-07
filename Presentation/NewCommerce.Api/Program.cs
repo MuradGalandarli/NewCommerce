@@ -15,6 +15,7 @@ using NewCommerce.Infrastructure.Filters;
 using NewCommerce.Infrastructure.Services;
 using NewCommerce.Infrastructure.Services.Storage.Local;
 using NewCommerce.Persistence;
+using NewCommerce.SignalR;
 using Serilog;
 using Serilog.Context;
 using Serilog.Core;
@@ -28,7 +29,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
-
+builder.Services.AddSignalService   ();
 
 //builder.Services.AddStorage<AzureStorage>();
 
@@ -120,6 +121,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.MapHubs();
 
 app.Use(async (context, next) =>
     {

@@ -183,3 +183,5 @@ D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
 D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\Serilog.Sinks.PostgreSQL.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.SignalR.dll
+D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\bin\Debug\net8.0\NewCommerce.SignalR.pdb

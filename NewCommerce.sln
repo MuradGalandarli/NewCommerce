@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.Api", "Presentation\NewCommerce.Api\NewCommerce.Api.csproj", "{B960FADD-9840-433C-B0C1-B87E816BB5E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.SignalR", "Infrastructure\NewCommerce.SignalR\NewCommerce.SignalR.csproj", "{27168BE2-F10D-4210-8213-A8E3ED924AC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{B960FADD-9840-433C-B0C1-B87E816BB5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B960FADD-9840-433C-B0C1-B87E816BB5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B960FADD-9840-433C-B0C1-B87E816BB5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27168BE2-F10D-4210-8213-A8E3ED924AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27168BE2-F10D-4210-8213-A8E3ED924AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27168BE2-F10D-4210-8213-A8E3ED924AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27168BE2-F10D-4210-8213-A8E3ED924AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +61,6 @@ Global
 		{CFD967E0-40D8-4828-94A1-C827F5CEB34C} = {98F31196-9A72-40D7-B7E2-76814A5A8D10}
 		{9A0B90C8-CFE4-4F75-B6DD-C5D911909643} = {98F31196-9A72-40D7-B7E2-76814A5A8D10}
 		{B960FADD-9840-433C-B0C1-B87E816BB5E9} = {6174DC68-8BC6-40DA-8BB0-8DFF638B6AC8}
+		{27168BE2-F10D-4210-8213-A8E3ED924AC2} = {98F31196-9A72-40D7-B7E2-76814A5A8D10}
 	EndGlobalSection
 EndGlobal
