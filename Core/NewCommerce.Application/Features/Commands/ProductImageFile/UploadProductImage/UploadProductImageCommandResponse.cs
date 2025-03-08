@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewCommerce.Application.Features.Commands.Product.UploadProductImage
+namespace NewCommerce.Application.Features.Commands.ProductImageFile.UploadProductImage
 {
     public class UploadProductImageCommandResponse
     {

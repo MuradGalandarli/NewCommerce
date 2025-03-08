@@ -22,15 +22,15 @@ namespace NewCommerce.Application.Features.Queries.Product.GetAllProduct
         }
         public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
-            int totalCount = _productReadRepository.GetAll().Count();
+            int totalProductCount = _productReadRepository.GetAll().Count();
             throw new Exception("test");
             var datas = _productReadRepository.GetAll(false).Skip(request.Size * request.Page).Take(request.Size);
             _logger.LogInformation("List edildi");
             return new()
             {
                 Products = datas,
-                TotalCount = totalCount
-                
+                TotalProductCount = totalProductCount
+
 
             };
             

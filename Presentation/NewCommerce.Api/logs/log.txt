@@ -277,3 +277,505 @@ System.Exception: test
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
 2025-03-06 12:09:34.948 +04:00 [ERR] test
 2025-03-06 12:09:34.992 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product?Page=2&Size=2 - 500 null application/json 5297.3812ms
+2025-03-08 21:59:57.631 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 22:00:09.960 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 22:00:10.154 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 22:00:38.617 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 22:00:38.846 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-08 22:00:38.864 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-08 22:00:38.925 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-08 22:00:38.992 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-08 22:00:39.012 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-08 22:00:39.035 +04:00 [INF] Applying migration '20250308180013_mig8'.
+2025-03-08 22:00:39.144 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Files" ADD "Showcase" boolean;
+2025-03-08 22:00:39.146 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250308180013_mig8', '8.0.10');
+2025-03-08 22:38:50.395 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 22:38:50.747 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 22:38:50.749 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 22:38:50.784 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 22:38:50.786 +04:00 [INF] Hosting environment: Development
+2025-03-08 22:38:50.787 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 22:38:51.183 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 22:38:51.345 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 164.7804ms
+2025-03-08 22:38:51.355 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 22:38:51.355 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 22:38:51.361 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 5.9804ms
+2025-03-08 22:38:51.405 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.5976ms
+2025-03-08 22:38:51.731 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 22:38:51.755 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.8629ms
+2025-03-08 22:58:15.662 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 22:58:15.834 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 22:58:15.835 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 22:58:15.874 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 22:58:15.874 +04:00 [INF] Hosting environment: Development
+2025-03-08 22:58:15.875 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 22:58:16.137 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 22:58:16.282 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 147.4123ms
+2025-03-08 22:58:16.290 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 22:58:16.290 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 22:58:16.307 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 17.0381ms
+2025-03-08 22:58:16.336 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1266ms
+2025-03-08 22:58:16.708 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 22:58:16.734 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.9377ms
+2025-03-08 22:59:14.270 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 22:59:14.456 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 22:59:14.457 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 22:59:14.507 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 22:59:14.511 +04:00 [INF] Hosting environment: Development
+2025-03-08 22:59:14.512 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 22:59:15.054 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 22:59:15.174 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 123.4461ms
+2025-03-08 22:59:15.187 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 22:59:15.187 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 22:59:15.197 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 9.8315ms
+2025-03-08 22:59:15.223 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.5218ms
+2025-03-08 22:59:15.465 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 22:59:15.488 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.0863ms
+2025-03-08 23:03:39.689 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:03:40.624 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-03-08 23:03:40.632 +04:00 [INF] AuthenticationScheme: Admin was challenged.
+2025-03-08 23:03:40.637 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 401 0 null 947.5445ms
+2025-03-08 23:04:07.961 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 23:04:08.155 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 23:04:08.156 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 23:04:08.201 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 23:04:08.202 +04:00 [INF] Hosting environment: Development
+2025-03-08 23:04:08.202 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 23:04:08.630 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 23:04:08.782 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 157.3347ms
+2025-03-08 23:04:08.788 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 23:04:08.788 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 23:04:08.797 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 8.9142ms
+2025-03-08 23:04:08.825 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.8043ms
+2025-03-08 23:04:09.046 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 23:04:09.066 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.3767ms
+2025-03-08 23:05:18.357 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:05:18.376 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:05:18.401 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-08 23:05:20.210 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 23:05:20.686 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 2276.5616ms
+2025-03-08 23:05:20.690 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:05:20.728 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandHandler.Handle(ChangeShowcaseImageCommandRequest request, CancellationToken cancellationToken) in D:\GitHub test\NewCommerce\Core\NewCommerce.Application\Features\Commands\ProductImageFile\ChangeShowcaseImage\ChangeShowcaseImageCommandHandler.cs:line 30
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage(ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest) in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\ProductController.cs:line 102
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 131
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-08 23:05:20.812 +04:00 [ERR] The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2025-03-08 23:05:20.823 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 500 null application/json 2466.1178ms
+2025-03-08 23:07:02.888 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:07:02.904 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:07:02.905 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-08 23:07:29.172 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+2025-03-08 23:07:37.650 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 34743.9025ms
+2025-03-08 23:07:37.653 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:07:37.685 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandHandler.Handle(ChangeShowcaseImageCommandRequest request, CancellationToken cancellationToken) in D:\GitHub test\NewCommerce\Core\NewCommerce.Application\Features\Commands\ProductImageFile\ChangeShowcaseImage\ChangeShowcaseImageCommandHandler.cs:line 30
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage(ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest) in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\ProductController.cs:line 102
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 131
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-08 23:08:02.490 +04:00 [ERR] The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2025-03-08 23:08:02.565 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 500 null application/json 59681.4606ms
+2025-03-08 23:08:06.689 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:08:06.694 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:08:06.694 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-08 23:08:47.353 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 40657.2039ms
+2025-03-08 23:08:47.356 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:08:47.386 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandHandler.Handle(ChangeShowcaseImageCommandRequest request, CancellationToken cancellationToken) in D:\GitHub test\NewCommerce\Core\NewCommerce.Application\Features\Commands\ProductImageFile\ChangeShowcaseImage\ChangeShowcaseImageCommandHandler.cs:line 30
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage(ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest) in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\ProductController.cs:line 102
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 131
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-08 23:08:58.749 +04:00 [ERR] The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2025-03-08 23:09:00.973 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 500 null application/json 54283.9806ms
+2025-03-08 23:14:14.750 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 23:14:14.977 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 23:14:14.978 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 23:14:15.026 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 23:14:15.027 +04:00 [INF] Hosting environment: Development
+2025-03-08 23:14:15.027 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 23:14:15.544 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 23:14:15.678 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 137.9492ms
+2025-03-08 23:14:15.686 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 23:14:15.689 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 23:14:15.694 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 8.0872ms
+2025-03-08 23:14:15.722 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.2905ms
+2025-03-08 23:14:15.940 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 23:14:15.960 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.2874ms
+2025-03-08 23:15:10.298 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:15:10.323 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:15:10.346 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-08 23:15:24.970 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 23:15:29.093 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 18741.1565ms
+2025-03-08 23:15:29.097 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:15:29.130 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandHandler.Handle(ChangeShowcaseImageCommandRequest request, CancellationToken cancellationToken) in D:\GitHub test\NewCommerce\Core\NewCommerce.Application\Features\Commands\ProductImageFile\ChangeShowcaseImage\ChangeShowcaseImageCommandHandler.cs:line 30
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage(ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest) in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\ProductController.cs:line 102
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 131
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-08 23:20:16.320 +04:00 [ERR] The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2025-03-08 23:20:24.988 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 500 null application/json 314690.4291ms
+2025-03-08 23:27:27.032 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 23:27:27.268 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 23:27:27.268 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 23:27:27.313 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 23:27:27.314 +04:00 [INF] Hosting environment: Development
+2025-03-08 23:27:27.314 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 23:27:27.856 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 23:27:27.980 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 128.0101ms
+2025-03-08 23:27:27.990 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 23:27:27.993 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 23:27:28.001 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 10.8335ms
+2025-03-08 23:27:28.025 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0903ms
+2025-03-08 23:27:28.255 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 23:27:28.280 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.4423ms
+2025-03-08 23:28:19.469 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:28:19.496 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:28:19.515 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-08 23:28:32.635 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 23:28:42.999 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+2025-03-08 23:29:09.451 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile' AND t."Id" = @__Parse_0 AND f."Showcase"
+LIMIT 1
+2025-03-08 23:29:09.481 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'NewCommerce.Persistence.Context.NewCommerceDb'.
+Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+   at Npgsql.ThrowHelper.ThrowNpgsqlOperationInProgressException(NpgsqlCommand command)
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+   at Npgsql.ThrowHelper.ThrowNpgsqlOperationInProgressException(NpgsqlCommand command)
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-03-08 23:29:09.625 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 50105.0683ms
+2025-03-08 23:29:09.628 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:29:09.681 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+   at Npgsql.ThrowHelper.ThrowNpgsqlOperationInProgressException(NpgsqlCommand command)
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method140(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandHandler.Handle(ChangeShowcaseImageCommandRequest request, CancellationToken cancellationToken) in D:\GitHub test\NewCommerce\Core\NewCommerce.Application\Features\Commands\ProductImageFile\ChangeShowcaseImage\ChangeShowcaseImageCommandHandler.cs:line 30
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage(ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest) in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\ProductController.cs:line 102
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 131
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-08 23:29:18.706 +04:00 [ERR] A command is already in progress: SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+2025-03-08 23:29:18.732 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 500 null application/json 59263.33ms
+2025-03-08 23:45:39.038 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-08 23:45:39.431 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-08 23:45:39.432 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-08 23:45:39.481 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-08 23:45:39.487 +04:00 [INF] Hosting environment: Development
+2025-03-08 23:45:39.487 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-08 23:45:40.058 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-08 23:45:40.359 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-08 23:45:40.370 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-08 23:45:40.371 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 283.8078ms
+2025-03-08 23:45:40.391 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 32.4021ms
+2025-03-08 23:45:40.432 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.2469ms
+2025-03-08 23:45:41.260 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-08 23:45:41.322 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.8755ms
+2025-03-08 23:47:40.998 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-08 23:47:41.060 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-08 23:47:41.126 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-08 23:48:06.713 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-08 23:48:15.098 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+2025-03-09 00:31:45.833 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 2644692.3259ms
+2025-03-09 00:31:45.846 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-09 00:31:45.941 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandHandler.Handle(ChangeShowcaseImageCommandRequest request, CancellationToken cancellationToken) in D:\GitHub test\NewCommerce\Core\NewCommerce.Application\Features\Commands\ProductImageFile\ChangeShowcaseImage\ChangeShowcaseImageCommandHandler.cs:line 30
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage(ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest) in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\ProductController.cs:line 102
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 131
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-09 00:31:49.693 +04:00 [ERR] The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+2025-03-09 00:31:50.305 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 500 null application/json 2649306.1602ms
+2025-03-09 00:36:41.511 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-09 00:36:41.876 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-09 00:36:41.880 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-09 00:36:41.984 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 00:36:41.985 +04:00 [INF] Hosting environment: Development
+2025-03-09 00:36:41.985 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-09 00:36:42.644 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-09 00:36:42.905 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 263.2985ms
+2025-03-09 00:36:42.917 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-09 00:36:42.918 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-09 00:36:42.984 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 67.3788ms
+2025-03-09 00:36:43.031 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.9326ms
+2025-03-09 00:36:43.496 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-09 00:36:43.541 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.2758ms
+2025-03-09 00:37:17.396 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - null null
+2025-03-09 00:37:17.462 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-09 00:37:17.529 +04:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller NewCommerce.Api.Controllers.ProductController (NewCommerce.Api).
+2025-03-09 00:38:00.767 +04:00 [WRN] The foreign key property 'Order.CustomerId1' was created in shadow state because a conflicting property with the simple name 'CustomerId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-09 00:38:02.207 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."CreateDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id", t."CreateDate", t."Name", t."Price", t."Stock", t."UpdateDate"
+FROM "Files" AS f
+INNER JOIN (
+    SELECT p0."Id", p0."CreateDate", p0."Name", p0."Price", p0."Stock", p0."UpdateDate", p."ProductImageFilesId"
+    FROM "ProductProductImageFile" AS p
+    INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+) AS t ON f."Id" = t."ProductImageFilesId"
+WHERE f."Discriminator" = 'ProductImageFile'
+2025-03-09 00:38:24.431 +04:00 [INF] Executed DbCommand (36ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Files" SET "Showcase" = @p0
+WHERE "Id" = @p1;
+2025-03-09 00:38:24.498 +04:00 [INF] Executing OkObjectResult, writing value of type 'NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandResponse'.
+2025-03-09 00:38:24.527 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api) in 66984.6846ms
+2025-03-09 00:38:24.531 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ProductController.ChangeShowcaseImage (NewCommerce.Api)'
+2025-03-09 00:38:24.563 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Product/ChangeShowcaseImage?ImageId=6bd32324-bccc-4df8-a7b7-339b0b5d93e5&ProductId=1c5934c8-1af1-4192-a1bc-c35bb1e924e8 - 200 null application/json; charset=utf-8 67167.3813ms

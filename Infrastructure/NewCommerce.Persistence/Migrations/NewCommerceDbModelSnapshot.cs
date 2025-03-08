@@ -387,6 +387,9 @@ namespace NewCommerce.Persistence.Migrations
                 {
                     b.HasBaseType("NewCommerce.Domain.Entitys.Common.File");
 
+                    b.Property<bool>("Showcase")
+                        .HasColumnType("boolean");
+
                     b.HasDiscriminator().HasValue("ProductImageFile");
                 });
 

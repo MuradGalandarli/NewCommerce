@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using P =NewCommerce.Domain.Entitys;
+using P = NewCommerce.Domain.Entitys;
 
-namespace NewCommerce.Application.Features.Commands.Product.UploadProductImage
+namespace NewCommerce.Application.Features.Commands.ProductImageFile.UploadProductImage
 {
     public class UploadProductImageCommandHandler : IRequestHandler<UploadProductImageCommandRequest, UploadProductImageCommandResponse>
     {
@@ -34,7 +34,7 @@ namespace NewCommerce.Application.Features.Commands.Product.UploadProductImage
             {
                 P.Product product = await _productReadRepository.GetById(request.id);
 
-                await _productImageWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
+                await _productImageWriteRepository.AddRangeAsync(datas.Select(d => new Domain.Entitys.Common.ProductImageFile()
                 {
 
                     FileName = d.fileName,

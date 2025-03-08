@@ -11,7 +11,7 @@ using NewCommerce.Application.Repositoryes;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace NewCommerce.Application.Features.Commands.Product.DeleteProductImage
+namespace NewCommerce.Application.Features.Commands.ProductImageFile.DeleteProductImage
 {
     public class DeleteProductImageCommandHandler : IRequestHandler<DeleteProductImageCommandRequest, DeleteProductImageCommandResponse>
     {
@@ -29,9 +29,9 @@ namespace NewCommerce.Application.Features.Commands.Product.DeleteProductImage
         public async Task<DeleteProductImageCommandResponse> Handle(DeleteProductImageCommandRequest request, CancellationToken cancellationToken)
         {
             var product = _productReadRepository.Table.Include(p => p.ProductImageFiles).FirstOrDefault(p => p.Id == Guid.Parse(request.productId));
-            ProductImageFile? productImageFile = product.ProductImageFiles.FirstOrDefault(x => x.Id == Guid.Parse(request.imageId));
+            Domain.Entitys.Common.ProductImageFile? productImageFile = product.ProductImageFiles.FirstOrDefault(x => x.Id == Guid.Parse(request.imageId));
             if (productImageFile != null)
-            product.ProductImageFiles.Remove(productImageFile);
+                product.ProductImageFiles.Remove(productImageFile);
             await _productImageWriteRepository.SaveAsync();
             return new();
         }

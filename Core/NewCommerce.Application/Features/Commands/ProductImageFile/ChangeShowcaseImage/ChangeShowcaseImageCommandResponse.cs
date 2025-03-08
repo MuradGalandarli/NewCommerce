@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewCommerce.Application.Features.Commands.Product.DeleteProductImage
+namespace NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage
 {
-    public class DeleteProductImageCommandResponse
+    public class ChangeShowcaseImageCommandResponse
     {
     }
 }

@@ -64,6 +64,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NewCommerce.Api.Controllers.FilesController",
+    "Method": "GetBaseStorageUrl",
+    "RelativePath": "api/Files/GetBaseStorageUrl",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.ProductController",
     "Method": "GetAllProduct",
     "RelativePath": "api/Product",
@@ -123,6 +133,27 @@
   },
   {
     "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "ChangeShowcaseImage",
+    "RelativePath": "api/Product/ChangeShowcaseImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Product/DeleteProduct/{id}",
     "HttpMethod": "DELETE",
@@ -147,7 +178,7 @@
     "Parameters": [
       {
         "Name": "deleteProductImageCommandRequest",
-        "Type": "NewCommerce.Application.Features.Commands.Product.DeleteProductImage.DeleteProductImageCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.ProductImageFile.DeleteProductImage.DeleteProductImageCommandRequest",
         "IsRequired": true
       }
     ],
