@@ -1,14 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ETicaretAPI.Persistence.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NewCommerce.Application;
 using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.Abstractions.Services.Authentications;
 using NewCommerce.Application.Repositoryes;
+using NewCommerce.Application.Repositoryes.Basket;
+using NewCommerce.Application.Repositoryes.BasketItem;
 using NewCommerce.Domain.Entitys.Common;
 using NewCommerce.Domain.Identity;
 using NewCommerce.Persistence.Context;
 using NewCommerce.Persistence.Repositoryes;
+using NewCommerce.Persistence.Repositoryes.Basket;
+using NewCommerce.Persistence.Repositoryes.BasketItem;
 using NewCommerce.Persistence.Repositoryes.InvoiceFile;
 using NewCommerce.Persistence.Services;
 using System;
@@ -37,7 +42,7 @@ namespace NewCommerce.Persistence
 
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<IProductReadRepository, ProductReadRepository>();
-            services.AddScoped<IOrderReadReposiyory, OrderReadRepository>();
+            services.AddScoped<IOrderReadRepository, OrderReadRepository>();
 
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
@@ -56,6 +61,13 @@ namespace NewCommerce.Persistence
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped <IExternalAuthentication, AuthService>();
             services.AddScoped<IInternalAuthentication, AuthService>();
+
+            services.AddScoped<IBasketItemReadRepository, BasketItemReadRepository>();
+            services.AddScoped<IBasketItemWriteRepository, BasketItemWriteRepository>();
+            services.AddScoped<IBasketReadRepository, BasketReadRepository>();
+            services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
+            services.AddScoped<IBasketService, BasketService>();
+
 
         }
     }

@@ -1,9 +1,3 @@
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.csproj.AssemblyReference.cache
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.AssemblyInfoInputs.cache
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.AssemblyInfo.cs
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.csproj.CoreCompileInputs.cache
-D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.sourcelink.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8.0\NewCommerce.Persistence.deps.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8.0\NewCommerce.Persistence.runtimeconfig.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8.0\NewCommerce.Persistence.dll
@@ -12,6 +6,12 @@ D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8.0\NewCommerce.Domain.dll
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8.0\NewCommerce.Application.pdb
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\bin\Debug\net8.0\NewCommerce.Domain.pdb
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.csproj.AssemblyReference.cache
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.AssemblyInfoInputs.cache
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.AssemblyInfo.cs
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.csproj.CoreCompileInputs.cache
+D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.sourcelink.json
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewComme.ED85A941.Up2Date
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\NewCommerce.Persistence.dll
 D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Persistence\obj\Debug\net8.0\refint\NewCommerce.Persistence.dll

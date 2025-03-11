@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NewCommerce.Application.Repositoryes.Basket;
+using NewCommerce.Application.Repositoryes.BasketItem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,7 @@ namespace NewCommerce.Application
         {
             services.AddMediatR(typeof(ServiceRegistration));
             services.AddHttpClient();
+           
         }
     }
 }

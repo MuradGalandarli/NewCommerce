@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NewCommerce.Persistence.Repositoryes
 {
-    public class OrderReadRepository: ReadRepository<Order>, IOrderReadReposiyory
+    public class OrderReadRepository: ReadRepository<Order>, IOrderReadRepository
     {
         public OrderReadRepository(NewCommerceDb context):base(context)
         {

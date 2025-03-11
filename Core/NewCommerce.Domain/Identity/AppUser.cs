@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNetCore.Identity;
+using NewCommerce.Domain.Entitys;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace NewCommerce.Domain.Identity
         public string? NameSurname { get; set; }
         public string? RefreshToken { get; set; }
         public DateTime RefreshTokenEndDate { get; set; }
+        public ICollection<Basket> Baskets { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using NewCommerce.Domain.Entitys;
 
 namespace NewCommerce.Application.Repositoryes
 {
-    public interface IOrderReadReposiyory : IReadRepository<Order>
+    public interface IOrderReadRepository : IReadRepository<Order>
     {
        
     }
