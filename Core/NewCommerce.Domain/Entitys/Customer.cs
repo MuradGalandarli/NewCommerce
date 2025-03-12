@@ -11,6 +11,6 @@ namespace NewCommerce.Domain.Entitys
     {
         public string? Name { get; set; }
         public string SurName { get; set; }
-        public ICollection<Order> Orders { get; set; }  
+        //public ICollection<Order> Orders { get; set; }  
     }
 }

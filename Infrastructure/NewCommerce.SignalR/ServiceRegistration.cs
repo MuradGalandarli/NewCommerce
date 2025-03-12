@@ -14,6 +14,7 @@ namespace NewCommerce.SignalR
         public static void AddSignalService(this IServiceCollection service) {
 
             service.AddScoped<IProductHubService, ProductHubService>();
+            service.AddScoped<IOrderHubService, OrderHubService>();
             service.AddSignalR();
         }
     }

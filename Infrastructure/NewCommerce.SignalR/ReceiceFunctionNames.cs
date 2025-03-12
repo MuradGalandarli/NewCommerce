@@ -9,5 +9,6 @@ namespace NewCommerce.SignalR
     public static class ReceiceFunctionNames
     {
         public const string ProductAddedMessage = "receiveProductAddEdMessage";
+        public const string OrderAddedMessage = "receiveOrderAddEdMessage";
     }
 }

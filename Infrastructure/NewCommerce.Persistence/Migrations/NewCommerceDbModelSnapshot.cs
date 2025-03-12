@@ -148,7 +148,7 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Baskets");
+                    b.ToTable("Baskets", (string)null);
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.BasketItem", b =>
@@ -178,7 +178,7 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("BasketItems");
+                    b.ToTable("BasketItems", (string)null);
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Common.File", b =>
@@ -209,7 +209,7 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Files");
+                    b.ToTable("Files", (string)null);
 
                     b.HasDiscriminator().HasValue("File");
 
@@ -237,7 +237,7 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
@@ -254,10 +254,7 @@ namespace NewCommerce.Persistence.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("CustomerId")
-                        .HasColumnType("text");
-
-                    b.Property<Guid>("CustomerId1")
+                    b.Property<Guid>("CustomerId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Description")
@@ -268,9 +265,9 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustomerId1");
+                    b.HasIndex("CustomerId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Product", b =>
@@ -296,7 +293,7 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Identity.AppRole", b =>
@@ -398,21 +395,6 @@ namespace NewCommerce.Persistence.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("OrderProduct", b =>
-                {
-                    b.Property<Guid>("OrdersId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("ProductsId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("OrdersId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("OrderProduct");
-                });
-
             modelBuilder.Entity("ProductProductImageFile", b =>
                 {
                     b.Property<Guid>("ProductImageFilesId")
@@ -425,7 +407,7 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasIndex("ProductsId");
 
-                    b.ToTable("ProductProductImageFile");
+                    b.ToTable("ProductProductImageFile", (string)null);
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Common.InvoiceFile", b =>
@@ -532,8 +514,8 @@ namespace NewCommerce.Persistence.Migrations
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
                 {
                     b.HasOne("NewCommerce.Domain.Entitys.Customer", "Customer")
-                        .WithMany("Orders")
-                        .HasForeignKey("CustomerId1")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -546,21 +528,6 @@ namespace NewCommerce.Persistence.Migrations
                     b.Navigation("Basket");
 
                     b.Navigation("Customer");
-                });
-
-            modelBuilder.Entity("OrderProduct", b =>
-                {
-                    b.HasOne("NewCommerce.Domain.Entitys.Order", null)
-                        .WithMany()
-                        .HasForeignKey("OrdersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("NewCommerce.Domain.Entitys.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("ProductProductImageFile", b =>
@@ -584,11 +551,6 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.Navigation("Order")
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("NewCommerce.Domain.Entitys.Customer", b =>
-                {
-                    b.Navigation("Orders");
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Product", b =>
