@@ -28,6 +28,11 @@ namespace NewCommerce.Persistence.Context
             builder.Entity<Order>()
                 .HasKey(b => b.Id);
 
+            builder.Entity<Order>()
+               .HasIndex(o => o.OrderCode)
+               .IsUnique();
+
+
             builder.Entity<Basket>()
                 .HasOne(b => b.Order)
                 .WithOne(o => o.Basket)

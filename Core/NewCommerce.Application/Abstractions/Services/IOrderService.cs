@@ -1,4 +1,5 @@
 ﻿using NewCommerce.Application.DTOs.Order;
+using NewCommerce.Domain.Entitys;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,6 @@ namespace NewCommerce.Application.Abstractions.Services
     public interface IOrderService
     {
         Task CreateOrderAsync(CreateOrder createOrder);
+        Task<ListOrder> GetAllOrdersAsync(int page, int size);
     }
 }

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewCommerce.Application.Features.Commands.Order.CreateOrder;
+using NewCommerce.Application.Features.Queries.Order;
 
 namespace NewCommerce.Api.Controllers
 {
@@ -24,6 +25,15 @@ namespace NewCommerce.Api.Controllers
             {
                 CreateOrderCommandResponse response = await _mediator.Send(createOrderCommandRequest);
                 return Ok(response);
-            }
         }
+
+        [HttpGet]
+        public async Task<ActionResult> GetAllOrders([FromQuery] GetAllOrdersQueryRequest getAllOrdersQueryRequest)
+        {
+            GetAllOrdersQueryResponse response = await _mediator.Send(getAllOrdersQueryRequest);
+            return Ok(response);
+        }
+
+
+    }
 }

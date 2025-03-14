@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace NewCommerce.Persistence.Migrations
 {
     [DbContext(typeof(NewCommerceDb))]
-    [Migration("20250312090237_mig12")]
-    partial class mig12
+    [Migration("20250313123732_mig2")]
+    partial class mig2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -251,16 +251,13 @@ namespace NewCommerce.Persistence.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("text");
 
-                    b.Property<Guid>("BasketId")
-                        .HasColumnType("uuid");
-
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("CustomerId")
-                        .HasColumnType("uuid");
-
                     b.Property<string>("Description")
+                        .HasColumnType("text");
+
+                    b.Property<string>("OrderCode")
                         .HasColumnType("text");
 
                     b.Property<DateTime>("UpdateDate")
@@ -268,7 +265,8 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustomerId");
+                    b.HasIndex("OrderCode")
+                        .IsUnique();
 
                     b.ToTable("Orders");
                 });
@@ -516,12 +514,6 @@ namespace NewCommerce.Persistence.Migrations
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
                 {
-                    b.HasOne("NewCommerce.Domain.Entitys.Customer", "Customer")
-                        .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("NewCommerce.Domain.Entitys.Basket", "Basket")
                         .WithOne("Order")
                         .HasForeignKey("NewCommerce.Domain.Entitys.Order", "Id")
@@ -529,8 +521,6 @@ namespace NewCommerce.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("Basket");
-
-                    b.Navigation("Customer");
                 });
 
             modelBuilder.Entity("ProductProductImageFile", b =>

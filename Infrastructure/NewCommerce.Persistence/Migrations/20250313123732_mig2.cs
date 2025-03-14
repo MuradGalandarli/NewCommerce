@@ -5,24 +5,24 @@
 namespace NewCommerce.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class mig8 : Migration
+    public partial class mig2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<bool>(
-                name: "Showcase",
-                table: "Files",
-                type: "boolean",
-                nullable: true);
+            migrationBuilder.CreateIndex(
+                name: "IX_Orders_OrderCode",
+                table: "Orders",
+                column: "OrderCode",
+                unique: true);
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "Showcase",
-                table: "Files");
+            migrationBuilder.DropIndex(
+                name: "IX_Orders_OrderCode",
+                table: "Orders");
         }
     }
 }

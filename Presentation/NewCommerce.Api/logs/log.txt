@@ -1560,3 +1560,498 @@ SELECT "MigrationId", "ProductVersion"
 FROM "__EFMigrationsHistory"
 ORDER BY "MigrationId";
 2025-03-12 15:14:15.472 +04:00 [INF] No migrations were applied. The database is already up to date.
+2025-03-13 16:07:38.678 +04:00 [INF] Executed DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:07:38.782 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:07:38.826 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:07:38.868 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:07:38.870 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:07:38.882 +04:00 [INF] Applying migration '20250313120712_mig13'.
+2025-03-13 16:07:38.960 +04:00 [ERR] Failed executing DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP CONSTRAINT "FK_Orders_Customers_CustomerId";
+2025-03-13 16:18:24.448 +04:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:18:24.510 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:19:05.819 +04:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:19:05.889 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:19:05.926 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:19:05.963 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:19:05.965 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:19:05.977 +04:00 [INF] Applying migration '20250313121847_mig13'.
+2025-03-13 16:19:06.028 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP CONSTRAINT "FK_Orders_Customers_CustomerId";
+2025-03-13 16:24:25.051 +04:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:24:25.150 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:24:33.380 +04:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:24:33.447 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:24:33.483 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:24:33.519 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:24:33.521 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:24:33.535 +04:00 [INF] Reverting migration '20250312090237_mig12'.
+2025-03-13 16:24:33.606 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "OrderProduct" (
+    "OrdersId" uuid NOT NULL,
+    "ProductsId" uuid NOT NULL,
+    CONSTRAINT "PK_OrderProduct" PRIMARY KEY ("OrdersId", "ProductsId"),
+    CONSTRAINT "FK_OrderProduct_Orders_OrdersId" FOREIGN KEY ("OrdersId") REFERENCES "Orders" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_OrderProduct_Products_ProductsId" FOREIGN KEY ("ProductsId") REFERENCES "Products" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:24:33.608 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_OrderProduct_ProductsId" ON "OrderProduct" ("ProductsId");
+2025-03-13 16:24:33.610 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsHistory"
+WHERE "MigrationId" = '20250312090237_mig12';
+2025-03-13 16:24:33.617 +04:00 [INF] Reverting migration '20250312084709_mig11'.
+2025-03-13 16:24:33.644 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" ADD "CustomerId" uuid NOT NULL DEFAULT '8928889b-5f1c-4e5a-8174-1950883c35be';
+2025-03-13 16:24:33.645 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" ADD "CustomerId1" uuid NOT NULL DEFAULT '4db84cad-5e63-48e0-9e63-4bbd7a681125';
+2025-03-13 16:24:33.646 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsHistory"
+WHERE "MigrationId" = '20250312084709_mig11';
+2025-03-13 16:24:33.646 +04:00 [INF] Reverting migration '20250311104330_mig10'.
+2025-03-13 16:24:33.673 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP CONSTRAINT "FK_Orders_Baskets_Id";
+2025-03-13 16:24:33.678 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP COLUMN "BasketId";
+2025-03-13 16:26:58.119 +04:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:26:58.189 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:26:58.363 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:26:58.403 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:26:58.405 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:26:58.415 +04:00 [INF] Applying migration '20250312084709_mig11'.
+2025-03-13 16:26:58.471 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP COLUMN "CustomerId";
+2025-03-13 16:29:48.419 +04:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:29:48.489 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:29:48.663 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:29:48.719 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:29:48.722 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:29:48.733 +04:00 [INF] Applying migration '20250312084709_mig11'.
+2025-03-13 16:29:48.786 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP COLUMN "CustomerId";
+2025-03-13 16:30:32.325 +04:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:30:32.390 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:30:32.428 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:30:32.468 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:30:32.470 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:30:32.483 +04:00 [INF] Applying migration '20250312084709_mig11'.
+2025-03-13 16:30:32.539 +04:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP COLUMN "CustomerId";
+2025-03-13 16:30:42.733 +04:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:30:42.821 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:30:42.859 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:30:42.897 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:30:42.899 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:30:42.913 +04:00 [INF] Applying migration '20250312084709_mig11'.
+2025-03-13 16:30:42.962 +04:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Orders" DROP COLUMN "CustomerId";
+2025-03-13 16:32:03.225 +04:00 [INF] Executed DbCommand (357ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE "NewCommerce";
+2025-03-13 16:32:03.385 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-03-13 16:32:03.430 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:32:03.434 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:32:03.448 +04:00 [INF] Applying migration '20250313123153_mig1'.
+2025-03-13 16:32:03.511 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetRoles" (
+    "Id" text NOT NULL,
+    "Name" character varying(256),
+    "NormalizedName" character varying(256),
+    "ConcurrencyStamp" text,
+    CONSTRAINT "PK_AspNetRoles" PRIMARY KEY ("Id")
+);
+2025-03-13 16:32:03.515 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUsers" (
+    "Id" text NOT NULL,
+    "NameSurname" text,
+    "RefreshToken" text,
+    "RefreshTokenEndDate" timestamp with time zone NOT NULL,
+    "UserName" character varying(256),
+    "NormalizedUserName" character varying(256),
+    "Email" character varying(256),
+    "NormalizedEmail" character varying(256),
+    "EmailConfirmed" boolean NOT NULL,
+    "PasswordHash" text,
+    "SecurityStamp" text,
+    "ConcurrencyStamp" text,
+    "PhoneNumber" text,
+    "PhoneNumberConfirmed" boolean NOT NULL,
+    "TwoFactorEnabled" boolean NOT NULL,
+    "LockoutEnd" timestamp with time zone,
+    "LockoutEnabled" boolean NOT NULL,
+    "AccessFailedCount" integer NOT NULL,
+    CONSTRAINT "PK_AspNetUsers" PRIMARY KEY ("Id")
+);
+2025-03-13 16:32:03.518 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Customers" (
+    "Id" uuid NOT NULL,
+    "Name" text,
+    "SurName" text NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Customers" PRIMARY KEY ("Id")
+);
+2025-03-13 16:32:03.523 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Files" (
+    "Id" uuid NOT NULL,
+    "FileName" text NOT NULL,
+    "Path" text NOT NULL,
+    "Storage" text NOT NULL,
+    "Discriminator" character varying(21) NOT NULL,
+    "Price" numeric,
+    "Showcase" boolean,
+    "CreateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Files" PRIMARY KEY ("Id")
+);
+2025-03-13 16:32:03.527 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Products" (
+    "Id" uuid NOT NULL,
+    "Name" text,
+    "Stock" integer NOT NULL,
+    "Price" real NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+);
+2025-03-13 16:32:03.535 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetRoleClaims" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "RoleId" text NOT NULL,
+    "ClaimType" text,
+    "ClaimValue" text,
+    CONSTRAINT "PK_AspNetRoleClaims" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_AspNetRoleClaims_AspNetRoles_RoleId" FOREIGN KEY ("RoleId") REFERENCES "AspNetRoles" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.540 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserClaims" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "UserId" text NOT NULL,
+    "ClaimType" text,
+    "ClaimValue" text,
+    CONSTRAINT "PK_AspNetUserClaims" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_AspNetUserClaims_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.545 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserLogins" (
+    "LoginProvider" text NOT NULL,
+    "ProviderKey" text NOT NULL,
+    "ProviderDisplayName" text,
+    "UserId" text NOT NULL,
+    CONSTRAINT "PK_AspNetUserLogins" PRIMARY KEY ("LoginProvider", "ProviderKey"),
+    CONSTRAINT "FK_AspNetUserLogins_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.550 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserRoles" (
+    "UserId" text NOT NULL,
+    "RoleId" text NOT NULL,
+    CONSTRAINT "PK_AspNetUserRoles" PRIMARY KEY ("UserId", "RoleId"),
+    CONSTRAINT "FK_AspNetUserRoles_AspNetRoles_RoleId" FOREIGN KEY ("RoleId") REFERENCES "AspNetRoles" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_AspNetUserRoles_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.554 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AspNetUserTokens" (
+    "UserId" text NOT NULL,
+    "LoginProvider" text NOT NULL,
+    "Name" text NOT NULL,
+    "Value" text,
+    CONSTRAINT "PK_AspNetUserTokens" PRIMARY KEY ("UserId", "LoginProvider", "Name"),
+    CONSTRAINT "FK_AspNetUserTokens_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.559 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Baskets" (
+    "Id" uuid NOT NULL,
+    "UserId" text NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Baskets" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Baskets_AspNetUsers_UserId" FOREIGN KEY ("UserId") REFERENCES "AspNetUsers" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.563 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ProductProductImageFile" (
+    "ProductImageFilesId" uuid NOT NULL,
+    "ProductsId" uuid NOT NULL,
+    CONSTRAINT "PK_ProductProductImageFile" PRIMARY KEY ("ProductImageFilesId", "ProductsId"),
+    CONSTRAINT "FK_ProductProductImageFile_Files_ProductImageFilesId" FOREIGN KEY ("ProductImageFilesId") REFERENCES "Files" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_ProductProductImageFile_Products_ProductsId" FOREIGN KEY ("ProductsId") REFERENCES "Products" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.566 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "BasketItems" (
+    "Id" uuid NOT NULL,
+    "BasketId" uuid NOT NULL,
+    "ProductId" uuid NOT NULL,
+    "Quantity" integer NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_BasketItems" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_BasketItems_Baskets_BasketId" FOREIGN KEY ("BasketId") REFERENCES "Baskets" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_BasketItems_Products_ProductId" FOREIGN KEY ("ProductId") REFERENCES "Products" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.571 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Orders" (
+    "Id" uuid NOT NULL,
+    "Description" text,
+    "Address" text,
+    "OrderCode" text,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Orders" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Orders_Baskets_Id" FOREIGN KEY ("Id") REFERENCES "Baskets" ("Id") ON DELETE CASCADE
+);
+2025-03-13 16:32:03.814 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetRoleClaims_RoleId" ON "AspNetRoleClaims" ("RoleId");
+2025-03-13 16:32:03.816 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "RoleNameIndex" ON "AspNetRoles" ("NormalizedName");
+2025-03-13 16:32:03.819 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetUserClaims_UserId" ON "AspNetUserClaims" ("UserId");
+2025-03-13 16:32:03.821 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetUserLogins_UserId" ON "AspNetUserLogins" ("UserId");
+2025-03-13 16:32:03.823 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AspNetUserRoles_RoleId" ON "AspNetUserRoles" ("RoleId");
+2025-03-13 16:32:03.826 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "EmailIndex" ON "AspNetUsers" ("NormalizedEmail");
+2025-03-13 16:32:03.828 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "UserNameIndex" ON "AspNetUsers" ("NormalizedUserName");
+2025-03-13 16:32:03.830 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_BasketItems_BasketId" ON "BasketItems" ("BasketId");
+2025-03-13 16:32:03.832 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_BasketItems_ProductId" ON "BasketItems" ("ProductId");
+2025-03-13 16:32:03.834 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Baskets_UserId" ON "Baskets" ("UserId");
+2025-03-13 16:32:03.836 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_ProductProductImageFile_ProductsId" ON "ProductProductImageFile" ("ProductsId");
+2025-03-13 16:32:03.837 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250313123153_mig1', '8.0.10');
+2025-03-13 16:37:39.319 +04:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:37:39.384 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:37:39.418 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:37:39.457 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-13 16:37:39.459 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-13 16:37:39.469 +04:00 [INF] Applying migration '20250313123732_mig2'.
+2025-03-13 16:37:39.523 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_Orders_OrderCode" ON "Orders" ("OrderCode");
+2025-03-13 16:37:39.524 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250313123732_mig2', '8.0.10');
