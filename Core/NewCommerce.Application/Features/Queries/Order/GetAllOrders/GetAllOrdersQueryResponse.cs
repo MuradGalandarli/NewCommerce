@@ -1,4 +1,4 @@
-﻿namespace NewCommerce.Application.Features.Queries.Order
+﻿namespace NewCommerce.Application.Features.Queries.Order.GetAllOrders
 {
     public class GetAllOrdersQueryResponse
     {

@@ -2055,3 +2055,17 @@ CREATE UNIQUE INDEX "IX_Orders_OrderCode" ON "Orders" ("OrderCode");
 2025-03-13 16:37:39.524 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
 INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
 VALUES ('20250313123732_mig2', '8.0.10');
+2025-03-15 11:59:30.200 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 11:59:30.504 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-15 11:59:30.505 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-15 11:59:30.571 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 11:59:30.572 +04:00 [INF] Hosting environment: Development
+2025-03-15 11:59:30.573 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-15 11:59:31.191 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-15 11:59:31.441 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 258.1602ms
+2025-03-15 11:59:31.454 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 11:59:31.463 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 9.5935ms
+2025-03-15 11:59:31.468 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-15 11:59:31.534 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.2212ms
+2025-03-15 11:59:32.112 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-15 11:59:32.170 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.4537ms

@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewCommerce.Application.Features.Queries.Order
+namespace NewCommerce.Application.Features.Queries.Order.GetAllOrders
 {
     public class GetAllOrdersQueryHandler : IRequestHandler<GetAllOrdersQueryRequest, GetAllOrdersQueryResponse>
     {
         readonly IOrderService _orderService;
-      
-         public GetAllOrdersQueryHandler(IOrderService orderService)
+
+        public GetAllOrdersQueryHandler(IOrderService orderService)
         {
             _orderService = orderService;
         }
@@ -28,5 +28,5 @@ namespace NewCommerce.Application.Features.Queries.Order
             };
         }
     }
-    }
+}
 
