@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "NewCommerce.Api.Controllers.AuthController",
+    "Method": "ExampleMailTest",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthController",
     "Method": "FacebookLogin",
     "RelativePath": "api/Auth/facebook-login",
     "HttpMethod": "POST",

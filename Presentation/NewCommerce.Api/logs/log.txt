@@ -2069,3 +2069,536 @@ VALUES ('20250313123732_mig2', '8.0.10');
 2025-03-15 11:59:31.534 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.2212ms
 2025-03-15 11:59:32.112 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
 2025-03-15 11:59:32.170 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.4537ms
+2025-03-15 23:15:21.281 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 23:15:21.542 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-15 23:15:21.543 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-15 23:15:21.590 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 23:15:21.591 +04:00 [INF] Hosting environment: Development
+2025-03-15 23:15:21.592 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-15 23:15:22.419 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-15 23:15:22.682 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 269.4024ms
+2025-03-15 23:15:22.690 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 23:15:22.704 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 14.3078ms
+2025-03-15 23:15:22.705 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-15 23:15:22.788 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.9478ms
+2025-03-15 23:15:23.204 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-15 23:15:23.237 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.8822ms
+2025-03-15 23:51:35.041 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 23:51:35.396 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-15 23:51:35.401 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-15 23:51:35.467 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 23:51:35.468 +04:00 [INF] Hosting environment: Development
+2025-03-15 23:51:35.470 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-15 23:51:36.085 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-15 23:51:36.356 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 272.3427ms
+2025-03-15 23:51:36.369 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 23:51:36.402 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 32.8166ms
+2025-03-15 23:51:36.414 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-15 23:51:36.473 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.7511ms
+2025-03-15 23:51:37.322 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-15 23:51:37.350 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.5986ms
+2025-03-15 23:52:24.703 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-15 23:52:24.768 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:52:24.810 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-15 23:52:25.108 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 287.6837ms
+2025-03-15 23:52:25.116 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:52:25.176 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 34
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-15 23:52:25.270 +04:00 [ERR] Value cannot be null. (Parameter 'address')
+2025-03-15 23:52:25.286 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 583.5491ms
+2025-03-15 23:52:39.080 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-15 23:52:39.085 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:52:39.099 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-15 23:53:09.527 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 30423.4908ms
+2025-03-15 23:53:09.532 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:53:09.572 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 34
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-15 23:53:21.559 +04:00 [ERR] Value cannot be null. (Parameter 'address')
+2025-03-15 23:53:21.567 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 42487.4591ms
+2025-03-15 23:53:28.156 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-15 23:53:28.167 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:53:28.171 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-15 23:54:28.285 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-15 23:54:28.564 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-15 23:54:28.566 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-15 23:54:28.632 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-15 23:54:28.634 +04:00 [INF] Hosting environment: Development
+2025-03-15 23:54:28.635 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-15 23:54:29.378 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-15 23:54:29.608 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 234.9637ms
+2025-03-15 23:54:29.676 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-15 23:54:29.676 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-15 23:54:29.714 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 38.7987ms
+2025-03-15 23:54:29.747 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.9161ms
+2025-03-15 23:54:30.229 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-15 23:54:30.261 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.0283ms
+2025-03-15 23:54:38.260 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-15 23:54:38.333 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:54:38.402 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-15 23:55:04.306 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 25889.1111ms
+2025-03-15 23:55:04.320 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-15 23:55:04.432 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 34
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-15 23:55:08.021 +04:00 [ERR] Value cannot be null. (Parameter 'address')
+2025-03-15 23:55:09.700 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 31440.8683ms
+2025-03-16 00:03:07.509 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:03:07.774 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:03:07.776 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:03:07.859 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:03:07.861 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:03:07.861 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:03:08.347 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:03:08.605 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 261.5629ms
+2025-03-16 00:03:08.621 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:03:08.633 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 12.4007ms
+2025-03-16 00:03:08.640 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:03:08.688 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.0206ms
+2025-03-16 00:03:09.243 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:03:09.302 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.4211ms
+2025-03-16 00:03:16.315 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:03:16.371 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:03:16.420 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:04:04.317 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:04:04.614 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:04:04.615 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:04:04.689 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:04:04.692 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:04:04.693 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:04:05.089 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:04:05.403 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 317.3321ms
+2025-03-16 00:04:05.459 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:04:05.459 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:04:05.474 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 15.827ms
+2025-03-16 00:04:05.513 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.4337ms
+2025-03-16 00:04:05.907 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:04:05.940 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.0011ms
+2025-03-16 00:05:45.775 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:05:45.830 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:05:45.881 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:06:25.030 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:06:25.364 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:06:25.367 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:06:25.437 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:06:25.438 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:06:25.439 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:06:26.164 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:06:26.340 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 182.6857ms
+2025-03-16 00:06:26.346 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:06:26.357 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 10.5605ms
+2025-03-16 00:06:26.362 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:06:26.406 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1331ms
+2025-03-16 00:06:26.845 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:06:26.888 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.6711ms
+2025-03-16 00:06:32.570 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:06:32.616 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:06:32.674 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:06:36.272 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 3582.3413ms
+2025-03-16 00:06:36.277 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:06:36.307 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 34
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-16 00:06:36.382 +04:00 [ERR] Value cannot be null. (Parameter 'address')
+2025-03-16 00:06:36.398 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 3827.5227ms
+2025-03-16 00:06:56.901 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:06:56.911 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:06:56.913 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:07:47.748 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:07:48.003 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:07:48.004 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:07:48.070 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:07:48.071 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:07:48.072 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:07:48.564 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:07:48.862 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 300.5469ms
+2025-03-16 00:07:48.871 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:07:48.882 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 11.5614ms
+2025-03-16 00:07:48.891 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:07:48.937 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9811ms
+2025-03-16 00:07:49.490 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:07:49.552 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.4871ms
+2025-03-16 00:07:56.567 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:07:56.614 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:07:56.670 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:08:05.899 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 9213.5021ms
+2025-03-16 00:08:05.905 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:08:05.948 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'address')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.MailAddress.TryParse(String address, String displayName, Encoding displayNameEncoding, ValueTuple`4& parsedData, Boolean throwExceptionIfFail)
+   at System.Net.Mail.MailAddress..ctor(String address, String displayName, Encoding displayNameEncoding)
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 34
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-16 00:08:06.035 +04:00 [ERR] Value cannot be null. (Parameter 'address')
+2025-03-16 00:08:06.052 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 9485.0923ms
+2025-03-16 00:08:11.413 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:08:11.427 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:08:11.431 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:08:39.108 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:08:39.358 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:08:39.359 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:08:39.422 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:08:39.424 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:08:39.425 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:08:40.302 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:08:40.565 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 265.501ms
+2025-03-16 00:08:40.588 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:08:40.604 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 16.0193ms
+2025-03-16 00:08:40.605 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:08:40.656 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.4268ms
+2025-03-16 00:08:41.112 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:08:41.160 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.0243ms
+2025-03-16 00:08:46.106 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:08:46.171 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:08:46.223 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:09:26.943 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 40704.0163ms
+2025-03-16 00:09:26.951 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:09:27.000 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.ArgumentException.ThrowIfNullOrEmpty(String argument, String paramName)
+   at System.Net.Mail.SmtpClient.set_Host(String value)
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 40
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-16 00:09:27.108 +04:00 [ERR] Value cannot be null. (Parameter 'value')
+2025-03-16 00:09:27.125 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 41019.8821ms
+2025-03-16 00:11:38.737 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:11:38.987 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:11:38.988 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:11:39.152 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:11:39.153 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:11:39.154 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:11:39.412 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:11:39.678 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 270.4378ms
+2025-03-16 00:11:39.717 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:11:39.717 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:11:39.726 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 8.9497ms
+2025-03-16 00:11:39.762 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.494ms
+2025-03-16 00:11:40.345 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:11:40.375 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.9066ms
+2025-03-16 00:11:45.409 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:11:45.467 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:11:45.519 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:13:49.185 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:13:49.471 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:13:49.473 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:13:49.542 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:13:49.549 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:13:49.550 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:13:50.147 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:13:50.509 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 367.2163ms
+2025-03-16 00:13:50.557 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:13:50.557 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:13:50.568 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 11.7532ms
+2025-03-16 00:13:50.607 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.2719ms
+2025-03-16 00:13:50.999 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:13:51.027 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.3096ms
+2025-03-16 00:13:56.011 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:13:56.072 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:13:56.145 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:16:24.683 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:16:25.030 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:16:25.032 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:16:25.153 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:16:25.154 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:16:25.155 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:16:25.376 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:16:25.665 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 291.0813ms
+2025-03-16 00:16:25.715 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:16:25.715 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:16:25.726 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 11.8977ms
+2025-03-16 00:16:25.772 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.6741ms
+2025-03-16 00:16:26.130 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:16:26.157 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.6547ms
+2025-03-16 00:16:32.919 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:16:32.989 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:16:33.059 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:16:39.221 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 6149.7301ms
+2025-03-16 00:16:39.226 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:16:39.417 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpException: Failure sending mail.
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.TaskToAsyncResult.End(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.InitializeConnectionCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+   --- End of inner exception stack trace ---
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 43
+   at NewCommerce.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in D:\GitHub test\NewCommerce\Infrastructure\NewCommerce.Infrastructure\Services\MailService.cs:line 23
+   at NewCommerce.Api.Controllers.AuthController.ExampleMailTest() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Controllers\AuthController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_6>d.MoveNext() in D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api\Program.cs:line 132
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-03-16 00:16:45.852 +04:00 [ERR] Failure sending mail.
+2025-03-16 00:16:46.879 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 500 null application/json 13960.7273ms
+2025-03-16 00:16:51.694 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:16:54.692 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:16:54.697 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:18:55.787 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:18:56.165 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:18:56.168 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:18:56.279 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:18:56.281 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:18:56.288 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:18:56.894 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:18:57.205 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:18:57.205 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 317.1689ms
+2025-03-16 00:18:57.226 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 22.1684ms
+2025-03-16 00:18:57.244 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:18:57.294 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.229ms
+2025-03-16 00:18:57.765 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:18:57.810 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 45.5793ms
+2025-03-16 00:19:07.428 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:19:07.480 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:19:07.536 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:19:46.418 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-03-16 00:19:46.431 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 38880.9416ms
+2025-03-16 00:19:46.438 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:19:46.448 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 200 0 null 39020.7326ms
+2025-03-16 00:19:50.063 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:19:50.074 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:19:50.078 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:20:00.509 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-03-16 00:20:00.511 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 10425.5457ms
+2025-03-16 00:20:00.514 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:20:00.519 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 200 0 null 10456.3754ms
+2025-03-16 00:20:02.553 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:20:02.565 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:20:02.569 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:21:07.766 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:21:08.049 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:21:08.052 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:21:08.113 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:21:08.124 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:21:08.142 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:21:08.514 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:21:08.820 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 316.0808ms
+2025-03-16 00:21:08.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:21:08.856 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 19.7308ms
+2025-03-16 00:21:08.862 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:21:08.909 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.7073ms
+2025-03-16 00:21:09.368 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:21:09.418 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.3655ms
+2025-03-16 00:21:16.456 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:21:16.503 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:21:16.553 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:21:35.886 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-03-16 00:21:35.896 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 19333.4818ms
+2025-03-16 00:21:35.901 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:21:36.939 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 200 0 null 20483.8524ms
+2025-03-16 00:33:26.117 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:33:26.577 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:33:26.580 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:33:26.700 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:33:26.702 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:33:26.704 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:33:26.958 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:33:27.203 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 249.4054ms
+2025-03-16 00:33:27.230 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:33:27.251 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 21.1205ms
+2025-03-16 00:33:27.259 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:33:27.314 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.8036ms
+2025-03-16 00:33:27.661 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:33:27.700 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.2064ms
+2025-03-16 00:33:47.171 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:33:47.221 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:33:47.269 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:38:51.864 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:38:52.161 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:38:52.163 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:38:52.250 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:38:52.254 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:38:52.255 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:38:52.562 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:38:52.847 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 290.4979ms
+2025-03-16 00:38:52.888 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:38:52.888 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:38:52.899 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 11.3093ms
+2025-03-16 00:38:52.947 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.1593ms
+2025-03-16 00:38:53.400 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:38:53.437 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.6646ms
+2025-03-16 00:39:00.910 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:39:00.965 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:39:01.013 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:40:22.853 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-16 00:40:23.195 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-16 00:40:23.196 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-16 00:40:23.260 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-16 00:40:23.262 +04:00 [INF] Hosting environment: Development
+2025-03-16 00:40:23.264 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-16 00:40:23.996 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-16 00:40:24.324 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 335.8143ms
+2025-03-16 00:40:24.395 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-16 00:40:24.395 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-16 00:40:24.419 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 23.6225ms
+2025-03-16 00:40:24.466 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.618ms
+2025-03-16 00:40:24.926 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-16 00:40:24.971 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.1704ms
+2025-03-16 00:40:31.836 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/Auth - null null
+2025-03-16 00:40:31.892 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:40:31.956 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller NewCommerce.Api.Controllers.AuthController (NewCommerce.Api).
+2025-03-16 00:40:34.350 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-03-16 00:40:34.364 +04:00 [INF] Executed action NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api) in 2394.8738ms
+2025-03-16 00:40:34.371 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.AuthController.ExampleMailTest (NewCommerce.Api)'
+2025-03-16 00:40:34.387 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Auth - 200 0 null 2551.6941ms

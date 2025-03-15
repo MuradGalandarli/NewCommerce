@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.Features.Commands.AppUser.FacebookLogin;
 using NewCommerce.Application.Features.Commands.AppUser.GoogleLogin;
 using NewCommerce.Application.Features.Commands.AppUser.LoginUser;
@@ -13,10 +14,11 @@ namespace NewCommerce.Api.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IMediator _mediator;
-
-        public AuthController(IMediator mediator)
+        readonly IMailService _mailService;
+        public AuthController(IMediator mediator, IMailService mailService)
         {
             _mediator = mediator;
+            _mailService = mailService;
         }
 
         [HttpPost("[action]")]
@@ -46,6 +48,12 @@ namespace NewCommerce.Api.Controllers
         {
             FacebookLoginCommandResponse response = await _mediator.Send(facebookLoginCommandRequest);
             return Ok(response);
+        }
+        [HttpGet]
+        public async Task<IActionResult> ExampleMailTest()
+        {
+            await _mailService.SendMessageAsync("mqelenderli25@gmail.com", "Test Mail", "<strong>Bu bir örnek maildir.</strong>");
+            return Ok();
         }
     }
 }

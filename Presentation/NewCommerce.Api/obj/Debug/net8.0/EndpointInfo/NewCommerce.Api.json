@@ -119,6 +119,18 @@
         }
       }
     },
+    "/api/Auth": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Baskets": {
       "get": {
         "tags": [
