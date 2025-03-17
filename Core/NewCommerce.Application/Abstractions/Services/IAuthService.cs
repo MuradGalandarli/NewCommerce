@@ -9,6 +9,7 @@ namespace NewCommerce.Application.Abstractions.Services
 {
     public interface IAuthService:IExternalAuthentication,IInternalAuthentication
     {
-
+        Task PaswordResetAsync(string email);
+        Task<bool> VerifyResetTokenAsync(string resetToken, string userId);
     }
 }

@@ -59,6 +59,22 @@
   },
   {
     "ContainingType": "NewCommerce.Api.Controllers.AuthController",
+    "Method": "PasswordReset",
+    "RelativePath": "api/Auth/password-reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "passwordResetCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AppUser.PasswordReset.PasswordResetCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthController",
     "Method": "RefreshTokenLogin",
     "RelativePath": "api/Auth/RefreshTokenLogin",
     "HttpMethod": "GET",
@@ -69,6 +85,22 @@
         "Name": "RefreshToken",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthController",
+    "Method": "VerifyResetToken",
+    "RelativePath": "api/Auth/verify-reset-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verifyResetTokenRequest",
+        "Type": "NewCommerce.Application.Features.Commands.VerifyResetToken.VerifyResetTokenRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -370,6 +402,22 @@
       {
         "Name": "createUserCommandRequest",
         "Type": "NewCommerce.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
+    "Method": "UpdatePasswordCommand",
+    "RelativePath": "api/Users/update-password-command",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePasswordCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AppUser.UpdatePassword.UpdatePasswordCommandRequest",
         "IsRequired": true
       }
     ],

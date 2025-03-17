@@ -4,6 +4,7 @@ using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.DTOs.User;
 using NewCommerce.Application.Exceptions;
 using NewCommerce.Application.Features.Commands.AppUser.CreateUser;
+using NewCommerce.Application.Helpers;
 using NewCommerce.Domain.Identity;
 using System;
 using System.Collections.Generic;
@@ -44,7 +45,7 @@ namespace NewCommerce.Persistence.Services
             return response;
         }
 
-        public async Task UpdateRefreshTOken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
+        public async Task UpdateRefreshTokenAsync(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
         {
             if (user != null)
             {
@@ -56,5 +57,27 @@ namespace NewCommerce.Persistence.Services
             else
             throw new NotFoundUserException();
         }
+
+        public async Task UpdatePasswordAsync(string userId, string resetToken, string newPassword)
+        {
+            AppUser? user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                resetToken = resetToken.UrlDecode();
+
+                IdentityResult identityResult = await _userManager.ResetPasswordAsync(user, resetToken, newPassword);
+                if (identityResult.Succeeded)
+                {
+                    await _userManager.UpdateSecurityStampAsync(user);
+                }
+                else
+                {
+                    throw new PasswordChangeFailedException();
+                }
+            }
+
+
+        }
+
     }
 }

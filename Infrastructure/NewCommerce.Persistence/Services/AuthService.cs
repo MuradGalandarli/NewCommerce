@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration;
 using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.Abstractions.Token;
@@ -9,9 +10,11 @@ using NewCommerce.Application.DTOs;
 using NewCommerce.Application.DTOs.Facebook;
 using NewCommerce.Application.Exceptions;
 using NewCommerce.Application.Features.Commands.AppUser.LoginUser;
+using NewCommerce.Application.Helpers;
 using NewCommerce.Domain.Identity;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -28,8 +31,9 @@ namespace NewCommerce.Persistence.Services
         readonly IConfiguration _configuration;
         readonly SignInManager<AppUser> _signInManager;
         readonly IUserService _userService;
+        readonly IMailService _mailService;
 
-        public AuthService(IHttpClientFactory httpClientFactory, Microsoft.AspNetCore.Identity.UserManager<AppUser> userManager, ITokenHandler tokenHandler, IConfiguration configuration = null, SignInManager<AppUser> signInManager = null, IUserService userService = null)
+        public AuthService(IHttpClientFactory httpClientFactory, Microsoft.AspNetCore.Identity.UserManager<AppUser> userManager, ITokenHandler tokenHandler, IConfiguration configuration = null, SignInManager<AppUser> signInManager = null, IUserService userService = null, IMailService mailService = null)
         {
             _httpClient = httpClientFactory.CreateClient();
             _userManager = userManager;
@@ -37,6 +41,7 @@ namespace NewCommerce.Persistence.Services
             _configuration = configuration;
             _signInManager = signInManager;
             _userService = userService;
+            _mailService = mailService;
         }
 
         private async Task<Token> CreateUserExternalAsync(AppUser user, string email,string name, Microsoft.AspNetCore.Identity.UserLoginInfo info,int accessTokenLifeTime)
@@ -66,7 +71,7 @@ namespace NewCommerce.Persistence.Services
 
             Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime,user);
             
-           await _userService.UpdateRefreshTOken(token.RefreshToken,user,token.Expiration,10);
+           await _userService.UpdateRefreshTokenAsync(token.RefreshToken,user,token.Expiration,10);
             return token;
         }
 
@@ -127,7 +132,7 @@ namespace NewCommerce.Persistence.Services
             if (result.Succeeded)
             {
                 Token token = _tokenHandler.CreateAccessToken(accessTokenLifeTime,user);
-                await _userService.UpdateRefreshTOken(token.RefreshToken, user, token.Expiration, 10);
+                await _userService.UpdateRefreshTokenAsync(token.RefreshToken, user, token.Expiration, 10);
                 return token;
               
             }
@@ -141,13 +146,44 @@ namespace NewCommerce.Persistence.Services
             if (user != null && user?.RefreshTokenEndDate < DateTime.UtcNow)
             {
                 Token token = _tokenHandler.CreateAccessToken(15,user);
-                await _userService.UpdateRefreshTOken(refreshToken, user, token.Expiration, 300);
+                await _userService.UpdateRefreshTokenAsync(refreshToken, user, token.Expiration, 300);
                 await _userManager.UpdateAsync(user);
                 return token;
             }
             else
                 throw new AuthenticationErrorException();
 
+        }
+
+        public async Task PaswordResetAsync(string email)
+        {
+          AppUser user = _userManager.Users.FirstOrDefault(x => x.Email == email);
+            if (user != null)
+            {
+                string refreshToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+                //byte[] tokenByte = Encoding.UTF8.GetBytes(refreshToken);    
+                //refreshToken = WebEncoders.Base64UrlEncode(tokenByte);
+
+                refreshToken = refreshToken.UrlEncode();
+                await _mailService.SendPasswordResetMailAsync(email,user.Id,refreshToken);
+            }
+
+        }
+
+        public async Task<bool> VerifyResetTokenAsync(string resetToken, string userId)
+        {
+         AppUser? user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                //byte[] byteToken = WebEncoders.Base64UrlDecode(resetToken); 
+                //resetToken = Encoding.UTF8.GetString(byteToken);
+
+                resetToken = resetToken.UrlDecode();
+               
+              return await _userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", resetToken);
+            }
+            return false;
         }
     }
 }

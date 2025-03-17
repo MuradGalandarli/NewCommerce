@@ -5,7 +5,9 @@ using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.Features.Commands.AppUser.FacebookLogin;
 using NewCommerce.Application.Features.Commands.AppUser.GoogleLogin;
 using NewCommerce.Application.Features.Commands.AppUser.LoginUser;
+using NewCommerce.Application.Features.Commands.AppUser.PasswordReset;
 using NewCommerce.Application.Features.Commands.AppUser.RefreshTokenLogin;
+using NewCommerce.Application.Features.Commands.VerifyResetToken;
 
 namespace NewCommerce.Api.Controllers
 {
@@ -30,7 +32,7 @@ namespace NewCommerce.Api.Controllers
         }
 
         [HttpGet("[action]")]
-        public async Task<IActionResult> RefreshTokenLogin([FromQuery]RefreshTokenCommendResquest refreshTokenCommendResquest)
+        public async Task<IActionResult> RefreshTokenLogin([FromQuery] RefreshTokenCommendResquest refreshTokenCommendResquest)
         {
             RefreshTokenCommendResponse response = await _mediator.Send(refreshTokenCommendResquest);
             return Ok(response);
@@ -52,8 +54,22 @@ namespace NewCommerce.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> ExampleMailTest()
         {
-            await _mailService.SendMessageAsync("mqelenderli25@gmail.com", "Test Mail", "<strong>Bu bir örnek maildir.</strong>");
+            await _mailService.SendMailAsync("mqelenderli25@gmail.com", "Test Mail", "<strong>Bu bir örnek maildir.</strong>");
             return Ok();
         }
+        [HttpPost("password-reset")]
+        public async Task<IActionResult> PasswordReset([FromBody] PasswordResetCommandRequest passwordResetCommandRequest)
+        {
+            await _mediator.Send(passwordResetCommandRequest);
+            return Ok();
+        }
+        [HttpPost("verify-reset-token")]
+        public async Task<IActionResult> VerifyResetToken([FromBody] VerifyResetTokenRequest verifyResetTokenRequest)
+        {
+            VerifyResetTokenReponse verifyResetTokenReponse = await _mediator.Send(verifyResetTokenRequest);
+            return Ok(verifyResetTokenReponse);
+        }
+
+
     }
 }
