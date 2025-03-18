@@ -9,12 +9,14 @@ using NewCommerce.Application.Abstractions.Services.Authentications;
 using NewCommerce.Application.Repositoryes;
 using NewCommerce.Application.Repositoryes.Basket;
 using NewCommerce.Application.Repositoryes.BasketItem;
+using NewCommerce.Application.Repositoryes.CompletedOrder;
 using NewCommerce.Domain.Entitys.Common;
 using NewCommerce.Domain.Identity;
 using NewCommerce.Persistence.Context;
 using NewCommerce.Persistence.Repositoryes;
 using NewCommerce.Persistence.Repositoryes.Basket;
 using NewCommerce.Persistence.Repositoryes.BasketItem;
+using NewCommerce.Persistence.Repositoryes.CompletedOrder;
 using NewCommerce.Persistence.Repositoryes.InvoiceFile;
 using NewCommerce.Persistence.Services;
 using System;
@@ -70,6 +72,8 @@ namespace NewCommerce.Persistence
             services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<ICompletedOrderReadRepository, CompletedOrderReadRepository>();
+            services.AddScoped<ICompletedOrderWriteRepository, CompletedOrderWriteRepository>();
 
 
         }

@@ -4611,3 +4611,75 @@ LIMIT 1
 2025-03-16 18:37:59.850 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077//update-password/064caf9e-57f5-4932-ad35-948dd37af8de/Q2ZESjhKMi9zM2sxVVhaUHFWdnp0MUl4eFUzTzk0cENiaENCaTA4UUlRNHgxNDdKTW85ZWJESllYYWtNZ29KZVB5MTIwUk1pZ1Z0bkE4NFY4K1FiRE1XQ3VndVJRQk91WGpYTDhqTHd5Y2RsNGphdlNrNFFkVFp4a1ZJd1IrRHQzT1BYcVo4M0lYbWt6T0Z6THMwN3FQd09YRzlVVy9DK252NGpybC9heUtZc256MDBSbVVxa05hVHNuK2pKcXZNbm1ZS0RWVEo2M3hmc0xBRkx3ZkkzMlhZd0svaWNmbTNtV0hmS3FSOHRYR2FiNzU0 - null null
 2025-03-16 18:37:59.884 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077//update-password/064caf9e-57f5-4932-ad35-948dd37af8de/Q2ZESjhKMi9zM2sxVVhaUHFWdnp0MUl4eFUzTzk0cENiaENCaTA4UUlRNHgxNDdKTW85ZWJESllYYWtNZ29KZVB5MTIwUk1pZ1Z0bkE4NFY4K1FiRE1XQ3VndVJRQk91WGpYTDhqTHd5Y2RsNGphdlNrNFFkVFp4a1ZJd1IrRHQzT1BYcVo4M0lYbWt6T0Z6THMwN3FQd09YRzlVVy9DK252NGpybC9heUtZc256MDBSbVVxa05hVHNuK2pKcXZNbm1ZS0RWVEo2M3hmc0xBRkx3ZkkzMlhZd0svaWNmbTNtV0hmS3FSOHRYR2FiNzU0 - 404 0 null 34.7001ms
 2025-03-16 18:37:59.893 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7077//update-password/064caf9e-57f5-4932-ad35-948dd37af8de/Q2ZESjhKMi9zM2sxVVhaUHFWdnp0MUl4eFUzTzk0cENiaENCaTA4UUlRNHgxNDdKTW85ZWJESllYYWtNZ29KZVB5MTIwUk1pZ1Z0bkE4NFY4K1FiRE1XQ3VndVJRQk91WGpYTDhqTHd5Y2RsNGphdlNrNFFkVFp4a1ZJd1IrRHQzT1BYcVo4M0lYbWt6T0Z6THMwN3FQd09YRzlVVy9DK252NGpybC9heUtZc256MDBSbVVxa05hVHNuK2pKcXZNbm1ZS0RWVEo2M3hmc0xBRkx3ZkkzMlhZd0svaWNmbTNtV0hmS3FSOHRYR2FiNzU0, Response status code: 404
+2025-03-18 11:51:21.097 +04:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-18 11:51:21.190 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-18 11:51:21.244 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-18 11:51:21.316 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-18 11:51:21.320 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-18 11:51:21.341 +04:00 [INF] Applying migration '20250318075110_mig3'.
+2025-03-18 11:51:21.439 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "CompletedOrders" (
+    "Id" uuid NOT NULL,
+    "OrderId" uuid NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_CompletedOrders" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_CompletedOrders_Orders_OrderId" FOREIGN KEY ("OrderId") REFERENCES "Orders" ("Id") ON DELETE CASCADE
+);
+2025-03-18 11:51:21.442 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX "IX_CompletedOrders_OrderId" ON "CompletedOrders" ("OrderId");
+2025-03-18 11:51:21.444 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250318075110_mig3', '8.0.10');
+2025-03-18 12:21:54.173 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 12:21:54.887 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-18 12:21:54.890 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-18 12:21:54.939 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 12:21:54.941 +04:00 [INF] Hosting environment: Development
+2025-03-18 12:21:54.942 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-18 12:21:55.921 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-18 12:21:56.245 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 337.647ms
+2025-03-18 12:21:56.256 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-18 12:21:56.282 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-18 12:21:56.302 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 46.827ms
+2025-03-18 12:21:56.377 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.3024ms
+2025-03-18 12:21:56.848 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-18 12:21:56.915 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.0473ms
+2025-03-18 12:50:42.928 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 12:50:43.827 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-18 12:50:43.829 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-18 12:50:43.880 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 12:50:43.882 +04:00 [INF] Hosting environment: Development
+2025-03-18 12:50:43.883 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-18 12:50:44.728 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-18 12:50:45.253 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 534.7783ms
+2025-03-18 12:50:45.320 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-18 12:50:45.320 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-18 12:50:45.343 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 23.2171ms
+2025-03-18 12:50:45.423 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.8318ms
+2025-03-18 12:50:46.131 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-18 12:50:46.187 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.8271ms

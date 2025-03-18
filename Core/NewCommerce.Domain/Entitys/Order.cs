@@ -19,5 +19,6 @@ namespace NewCommerce.Domain.Entitys
         //public ICollection<Product> Products { get; set; }  
 
         public Basket Basket { get; set; }
+        public CompletedOrder CompletedOrder { get; set; }
     }
 }

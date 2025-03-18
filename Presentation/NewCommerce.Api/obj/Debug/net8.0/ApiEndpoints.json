@@ -233,6 +233,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NewCommerce.Api.Controllers.OrderController",
+    "Method": "CompletedOrder",
+    "RelativePath": "api/Order/completed-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.ProductController",
     "Method": "GetAllProduct",
     "RelativePath": "api/Product",

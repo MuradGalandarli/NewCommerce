@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NewCommerce.Application.Features.Commands.Order.CompletedOrder;
 using NewCommerce.Application.Features.Commands.Order.CreateOrder;
 using NewCommerce.Application.Features.Queries.Order.GetAllOrders;
 using NewCommerce.Application.Features.Queries.Order.GetOrderById;
@@ -39,6 +40,13 @@ namespace NewCommerce.Api.Controllers
         {
             GetOrderByIdQueryResponse getOrderByIdQueryResponse = await _mediator.Send(getOrderByIdQueryRequest);
             return Ok(getOrderByIdQueryResponse);   
+        }
+
+        [HttpGet("completed-order")]
+        public async Task<IActionResult>CompletedOrder([FromRoute]CompletedOrderCommandRequest completedOrderCommandRequest)
+        {
+            CompletedOrderCommandResponse completedOrderCommandResponse = await _mediator.Send(completedOrderCommandRequest);
+            return Ok(completedOrderCommandResponse);
         }
 
     }

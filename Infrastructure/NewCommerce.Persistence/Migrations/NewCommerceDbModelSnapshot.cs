@@ -216,6 +216,29 @@ namespace NewCommerce.Persistence.Migrations
                     b.UseTphMappingStrategy();
                 });
 
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.CompletedOrder", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("OrderId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId")
+                        .IsUnique();
+
+                    b.ToTable("CompletedOrders");
+                });
+
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Customer", b =>
                 {
                     b.Property<Guid>("Id")
@@ -509,6 +532,17 @@ namespace NewCommerce.Persistence.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.CompletedOrder", b =>
+                {
+                    b.HasOne("NewCommerce.Domain.Entitys.Order", "Order")
+                        .WithOne("CompletedOrder")
+                        .HasForeignKey("NewCommerce.Domain.Entitys.CompletedOrder", "OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
                 {
                     b.HasOne("NewCommerce.Domain.Entitys.Basket", "Basket")
@@ -540,6 +574,12 @@ namespace NewCommerce.Persistence.Migrations
                     b.Navigation("BasketItems");
 
                     b.Navigation("Order")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
+                {
+                    b.Navigation("CompletedOrder")
                         .IsRequired();
                 });
 
