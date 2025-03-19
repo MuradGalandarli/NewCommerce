@@ -4683,3 +4683,17 @@ VALUES ('20250318075110_mig3', '8.0.10');
 2025-03-18 12:50:45.423 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.8318ms
 2025-03-18 12:50:46.131 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
 2025-03-18 12:50:46.187 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.8271ms
+2025-03-18 16:59:34.621 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-18 16:59:34.943 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-18 16:59:34.943 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-18 16:59:35.001 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-18 16:59:35.003 +04:00 [INF] Hosting environment: Development
+2025-03-18 16:59:35.003 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-18 16:59:35.617 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-18 16:59:35.835 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 230.9353ms
+2025-03-18 16:59:35.873 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-18 16:59:35.873 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-18 16:59:35.883 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 9.9181ms
+2025-03-18 16:59:35.942 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.4131ms
+2025-03-18 16:59:36.201 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-18 16:59:36.235 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.2704ms

@@ -14,6 +14,7 @@ namespace NewCommerce.Application.Abstractions.Services
         Task CreateOrderAsync(CreateOrder createOrder);
         Task<ListOrder> GetAllOrdersAsync(int page, int size);
         Task<SingleOrder> GetOrderId(string id);
-        Task CompletedOrderAsync(string id);    
+        Task<(bool, CompletedOrderDto)> CompletedOrderAsync(string id);    
+     
     }
 }

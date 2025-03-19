@@ -121,14 +121,25 @@ namespace NewCommerce.Persistence.Services
                 Completed = data2.Completed ,
             };
         }
+        
 
-        public async Task CompletedOrderAsync(string id)
+        public async Task<(bool, CompletedOrderDto)> CompletedOrderAsync(string id)
         {
-           Order order = await _orderReadRepository.GetById(id);
+           Order? order = await _orderReadRepository.Table.Include(x=>x.Basket).ThenInclude(x=>x.User).FirstOrDefaultAsync(x=>x.Id == Guid.Parse(id));
             if(order != null)
             {
-               await _completedOrderWriteRepository.AddAsync(new() { OrderId = Guid.Parse(id) });
+                 await _completedOrderWriteRepository.AddAsync(new() { OrderId = Guid.Parse(id) });
+                
+                return (await _completedOrderWriteRepository.SaveAsync() > 0, new()
+                {
+                    OrderCode = order.OrderCode,
+                    OrderDate = order.CreateDate,
+                    UserName = order.Basket.User.UserName,
+                    UserSurname = order.Basket.User.NameSurname,
+                    To = order.Basket.User.Email
+                });
             }
+            return (false,null);
         }
     }
 }

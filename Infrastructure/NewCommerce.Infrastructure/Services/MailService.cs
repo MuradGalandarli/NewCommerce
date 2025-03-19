@@ -18,6 +18,15 @@ namespace NewCommerce.Infrastructure.Services
             _configuration = configuration;
         }
 
+
+        public async Task CompletedOrderMailAsync(string to, string orderCode, DateTime orderDate,string userName)
+        {
+            string mail = $"Hörmətli {userName}, Salam<br>" +
+                $"{orderDate} tarixində verdiyiniz {orderCode} kodlu sifarişiniz tamamlanmış və kargo şirkətinə təhvil verilmişdir.<br>Uğurla istifadə edəsiniz...";
+
+            await SendMailAsync(to, $"{orderCode} Kodlu Sifarişiniz Tamamlandı", mail);
+        }
+
         public async Task SendMailAsync(string to, string subject, string body, bool isBodyHtml = true)
         {
             await SendMailAsync(new[] { to }, subject, body, isBodyHtml);
