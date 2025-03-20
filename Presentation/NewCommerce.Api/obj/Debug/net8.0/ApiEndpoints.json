@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "NewCommerce.Api.Controllers.ApplicatonServicesController",
+    "Method": "GetAuthorizeDefinitionEndponts",
+    "RelativePath": "api/ApplicatonServices/GetAuthorizeDefinitionEndpoints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.AuthController",
     "Method": "ExampleMailTest",
     "RelativePath": "api/Auth",

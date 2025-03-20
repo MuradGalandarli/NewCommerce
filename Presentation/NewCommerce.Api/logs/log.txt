@@ -4697,3 +4697,115 @@ VALUES ('20250318075110_mig3', '8.0.10');
 2025-03-18 16:59:35.942 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.4131ms
 2025-03-18 16:59:36.201 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
 2025-03-18 16:59:36.235 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.2704ms
+2025-03-19 16:53:43.587 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 16:53:44.013 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-19 16:53:44.014 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-19 16:53:44.074 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 16:53:44.076 +04:00 [INF] Hosting environment: Development
+2025-03-19 16:53:44.077 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-19 16:53:44.890 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-19 16:53:45.245 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 354.7958ms
+2025-03-19 16:53:45.269 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-19 16:53:45.269 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 16:53:45.281 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 10.998ms
+2025-03-19 16:53:45.354 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.4883ms
+2025-03-19 16:53:45.680 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-19 16:53:45.720 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.6881ms
+2025-03-19 16:54:34.022 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 16:54:34.312 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-19 16:54:34.316 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-19 16:54:34.394 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 16:54:34.397 +04:00 [INF] Hosting environment: Development
+2025-03-19 16:54:34.398 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-19 16:54:34.863 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-19 16:54:35.135 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 278.2513ms
+2025-03-19 16:54:35.148 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 16:54:35.157 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-19 16:54:35.160 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 12.5534ms
+2025-03-19 16:54:35.208 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2513ms
+2025-03-19 16:54:35.576 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-19 16:54:35.597 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-19 16:54:35.609 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 33.1767ms
+2025-03-19 16:55:06.012 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 16:55:06.330 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-19 16:55:06.335 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-19 16:55:06.404 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 16:55:06.412 +04:00 [INF] Hosting environment: Development
+2025-03-19 16:55:06.413 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-19 16:55:06.723 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-19 16:55:07.030 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 314.3456ms
+2025-03-19 16:55:07.041 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 16:55:07.064 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 22.5278ms
+2025-03-19 16:55:07.081 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-19 16:55:07.145 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.345ms
+2025-03-19 16:55:07.988 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-19 16:55:08.068 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.4887ms
+2025-03-19 16:55:57.043 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - null null
+2025-03-19 16:55:57.107 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
+2025-03-19 16:55:57.165 +04:00 [INF] Route matched with {action = "GetAuthorizeDefinitionEndponts", controller = "ApplicatonServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAuthorizeDefinitionEndponts() on controller NewCommerce.Api.Controllers.ApplicatonServicesController (NewCommerce.Api).
+2025-03-19 17:02:38.345 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 17:02:38.644 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-19 17:02:38.645 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-19 17:02:38.725 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 17:02:38.726 +04:00 [INF] Hosting environment: Development
+2025-03-19 17:02:38.728 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-19 17:02:39.384 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-19 17:02:39.647 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 284.8374ms
+2025-03-19 17:02:39.661 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 17:02:39.670 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-19 17:02:39.672 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 11.3982ms
+2025-03-19 17:02:39.719 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.4628ms
+2025-03-19 17:02:40.114 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-19 17:02:40.149 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.6254ms
+2025-03-19 17:02:56.308 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - null null
+2025-03-19 17:02:56.356 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
+2025-03-19 17:02:56.408 +04:00 [INF] Route matched with {action = "GetAuthorizeDefinitionEndponts", controller = "ApplicatonServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAuthorizeDefinitionEndponts() on controller NewCommerce.Api.Controllers.ApplicatonServicesController (NewCommerce.Api).
+2025-03-19 17:41:39.603 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 17:41:39.838 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-19 17:41:39.839 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-19 17:41:39.894 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 17:41:39.895 +04:00 [INF] Hosting environment: Development
+2025-03-19 17:41:39.896 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-19 17:41:40.519 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-19 17:41:40.771 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 255.8173ms
+2025-03-19 17:41:40.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 17:41:40.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-19 17:41:40.847 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 10.0616ms
+2025-03-19 17:41:40.888 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.8608ms
+2025-03-19 17:41:41.304 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-19 17:41:41.337 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.3031ms
+2025-03-19 17:41:46.223 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - null null
+2025-03-19 17:41:46.301 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
+2025-03-19 17:41:46.357 +04:00 [INF] Route matched with {action = "GetAuthorizeDefinitionEndponts", controller = "ApplicatonServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAuthorizeDefinitionEndponts() on controller NewCommerce.Api.Controllers.ApplicatonServicesController (NewCommerce.Api).
+2025-03-19 17:41:46.398 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-03-19 17:41:46.412 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api) in 40.3956ms
+2025-03-19 17:41:46.416 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
+2025-03-19 17:41:46.431 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - 200 0 null 208.3044ms
+2025-03-19 17:42:22.192 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-19 17:42:22.463 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-19 17:42:22.464 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-19 17:42:22.554 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 17:42:22.557 +04:00 [INF] Hosting environment: Development
+2025-03-19 17:42:22.560 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-19 17:42:23.436 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-19 17:42:23.711 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 279.0327ms
+2025-03-19 17:42:23.723 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 17:42:23.736 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 13.3226ms
+2025-03-19 17:42:23.744 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-19 17:42:23.788 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.451ms
+2025-03-19 17:42:24.285 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-19 17:42:24.316 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.5405ms
+2025-03-19 17:42:32.147 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - null null
+2025-03-19 17:42:32.191 +04:00 [INF] Executing endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
+2025-03-19 17:42:32.252 +04:00 [INF] Route matched with {action = "GetAuthorizeDefinitionEndponts", controller = "ApplicatonServices"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAuthorizeDefinitionEndponts() on controller NewCommerce.Api.Controllers.ApplicatonServicesController (NewCommerce.Api).
+2025-03-19 17:42:32.291 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NewCommerce.Application.DTOs.Configuration.Menu, NewCommerce.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-19 17:42:32.321 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api) in 53.134ms
+2025-03-19 17:42:32.328 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
+2025-03-19 17:42:32.334 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - 200 null application/json; charset=utf-8 187.1338ms

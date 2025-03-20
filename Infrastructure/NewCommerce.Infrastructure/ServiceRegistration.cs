@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using NewCommerce.Application.Abstractions.Configurations;
 using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Abstractions.Storage.Azure;
@@ -7,6 +8,7 @@ using NewCommerce.Application.Abstractions.Storage.Local;
 using NewCommerce.Application.Abstractions.Token;
 using NewCommerce.Application.Services;
 using NewCommerce.Infrastructure.Services;
+using NewCommerce.Infrastructure.Services.Configurations;
 using NewCommerce.Infrastructure.Services.Storage;
 using NewCommerce.Infrastructure.Services.Storage.Local;
 using System;
@@ -24,6 +26,7 @@ namespace NewCommerce.Infrastructure
             services.AddScoped<IStorageService, StorageService>();
             services.AddScoped<ITokenHandler,Services.TokenHandler>();
             services.AddScoped <IMailService,MailService>();
+            services.AddScoped <IApplicationService, ApplicationService>();
 
             // services.AddScoped<IAzureStorage, AzureStorage> ();
 
