@@ -4809,3 +4809,17 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP meth
 2025-03-19 17:42:32.321 +04:00 [INF] Executed action NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api) in 53.134ms
 2025-03-19 17:42:32.328 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.ApplicatonServicesController.GetAuthorizeDefinitionEndponts (NewCommerce.Api)'
 2025-03-19 17:42:32.334 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/ApplicatonServices/GetAuthorizeDefinitionEndpoints - 200 null application/json; charset=utf-8 187.1338ms
+2025-03-24 22:49:22.474 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-24 22:49:23.208 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-24 22:49:23.211 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-24 22:49:23.309 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-24 22:49:23.312 +04:00 [INF] Hosting environment: Development
+2025-03-24 22:49:23.313 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-24 22:49:24.281 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-24 22:49:24.605 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 330.9559ms
+2025-03-24 22:49:24.613 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-24 22:49:24.622 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 9.191ms
+2025-03-24 22:49:24.634 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-24 22:49:24.838 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 204.6012ms
+2025-03-24 22:49:25.118 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-24 22:49:25.189 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.0517ms

@@ -412,6 +412,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NewCommerce.Api.Controllers.RolesController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.RolesController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createRoleCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.Role.CreateRole.CreateRoleCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.RolesController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Roles/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.RolesController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Roles/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateRoleCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.Role.UpdateRole.UpdateRoleCommandRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.RolesController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Roles/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.UsersController",
     "Method": "CreateUser",
     "RelativePath": "api/Users",

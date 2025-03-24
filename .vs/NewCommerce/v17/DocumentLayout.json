@@ -3,132 +3,76 @@
   "WorkspaceRootPath": "D:\\GitHub test\\NewCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\controllers\\applicatonservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\controllers\\applicatonservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\role\\getrole\\getrolesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\role\\getrole\\getrolesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\dtos\\configuration\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\dtos\\configuration\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\deleterole\\deleterolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\deleterole\\deleterolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFD967E0-40D8-4828-94A1-C827F5CEB34C}|Infrastructure\\NewCommerce.Infrastructure\\NewCommerce.Infrastructure.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.infrastructure\\services\\configurations\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFD967E0-40D8-4828-94A1-C827F5CEB34C}|Infrastructure\\NewCommerce.Infrastructure\\NewCommerce.Infrastructure.csproj|solutionrelative:infrastructure\\newcommerce.infrastructure\\services\\configurations\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\createrole\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\createrole\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\dtos\\configuration\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\dtos\\configuration\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\createrole\\createrolecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\createrole\\createrolecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\enums\\actiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\enums\\actiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\createrole\\createrolecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\createrole\\createrolecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFD967E0-40D8-4828-94A1-C827F5CEB34C}|Infrastructure\\NewCommerce.Infrastructure\\NewCommerce.Infrastructure.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFD967E0-40D8-4828-94A1-C827F5CEB34C}|Infrastructure\\NewCommerce.Infrastructure\\NewCommerce.Infrastructure.csproj|solutionrelative:infrastructure\\newcommerce.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\deleterole\\deleterolecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\deleterole\\deleterolecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\abstractions\\configurations\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\abstractions\\configurations\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\deleterole\\deleterolecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\deleterole\\deleterolecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\consts\\authorizedefinitionconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\consts\\authorizedefinitionconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\updaterole\\updaterolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\updaterole\\updaterolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\updaterole\\updaterolecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\updaterole\\updaterolecommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\role\\updaterole\\updaterolecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\role\\updaterole\\updaterolecommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\customattributes\\authorizedefinitionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\customattributes\\authorizedefinitionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\role\\getrolebyid\\getrolebyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\role\\getrolebyid\\getrolebyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\role\\getrolebyid\\getrolebyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\role\\getrolebyid\\getrolebyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\abstractions\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\abstractions\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\role\\getrolebyid\\getrolebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\role\\getrolebyid\\getrolebyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\dtos\\order\\completedorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\dtos\\order\\completedorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\role\\getrole\\getrolesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\role\\getrole\\getrolesqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFD967E0-40D8-4828-94A1-C827F5CEB34C}|Infrastructure\\NewCommerce.Infrastructure\\NewCommerce.Infrastructure.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.infrastructure\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFD967E0-40D8-4828-94A1-C827F5CEB34C}|Infrastructure\\NewCommerce.Infrastructure\\NewCommerce.Infrastructure.csproj|solutionrelative:infrastructure\\newcommerce.infrastructure\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\role\\getrole\\getrolesqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\role\\getrole\\getrolesqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\abstractions\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\abstractions\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\abstractions\\services\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\abstractions\\services\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\order\\completedorder\\completedordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\order\\completedorder\\completedordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\order\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\order\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\order\\getorderbyid\\getorderbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\order\\getorderbyid\\getorderbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\dtos\\order\\singleorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\dtos\\order\\singleorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\order\\getorderbyid\\getorderbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\queries\\order\\getorderbyid\\getorderbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\order\\completedorder\\completedordercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\order\\completedorder\\completedordercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\context\\newcommercedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\context\\newcommercedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B60C33-DF20-415A-835D-C596C3C1B079}|Core\\NewCommerce.Domain\\NewCommerce.Domain.csproj|d:\\github test\\newcommerce\\core\\newcommerce.domain\\entitys\\completedorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B60C33-DF20-415A-835D-C596C3C1B079}|Core\\NewCommerce.Domain\\NewCommerce.Domain.csproj|solutionrelative:core\\newcommerce.domain\\entitys\\completedorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04B60C33-DF20-415A-835D-C596C3C1B079}|Core\\NewCommerce.Domain\\NewCommerce.Domain.csproj|d:\\github test\\newcommerce\\core\\newcommerce.domain\\entitys\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04B60C33-DF20-415A-835D-C596C3C1B079}|Core\\NewCommerce.Domain\\NewCommerce.Domain.csproj|solutionrelative:core\\newcommerce.domain\\entitys\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\repositoryes\\completedorder\\completedorderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\repositoryes\\completedorder\\completedorderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\repositoryes\\completedorder\\completedorderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\repositoryes\\completedorder\\completedorderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\repositoryes\\completedorder\\icompletedorderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\repositoryes\\completedorder\\icompletedorderreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\repositoryes\\completedorder\\icompletedorderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\repositoryes\\completedorder\\icompletedorderwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\migrations\\20250318075110_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\migrations\\20250318075110_mig3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,400 +94,237 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicatonServicesController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
-              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
-              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CreateRoleCommandRequest.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandRequest.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandRequest.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:45:06.098Z",
+              "WhenOpened": "2025-03-24T18:33:31.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Infrastructure\\Services\\Configurations\\ApplicationService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Infrastructure\\Services\\Configurations\\ApplicationService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Infrastructure\\Services\\Configurations\\ApplicationService.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Infrastructure\\Services\\Configurations\\ApplicationService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvyMAAAAkAAAAAAAAAA==",
+              "Title": "CreateRoleCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandHandler.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandHandler.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:42:09.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Action.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Configuration\\Action.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\DTOs\\Configuration\\Action.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Configuration\\Action.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\DTOs\\Configuration\\Action.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:35:40.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAwwGQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:36:57.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ActionType.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Enums\\ActionType.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Enums\\ActionType.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Enums\\ActionType.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Enums\\ActionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:04:36.497Z",
+              "WhenOpened": "2025-03-24T18:29:47.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Configuration\\Menu.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\DTOs\\Configuration\\Menu.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Configuration\\Menu.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\DTOs\\Configuration\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA6AAAAAAAAAA==",
+              "Title": "DeleteRoleCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandHandler.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandHandler.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:35:54.014Z",
+              "WhenOpened": "2025-03-24T18:36:23.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IApplicationService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Configurations\\IApplicationService.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Configurations\\IApplicationService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Configurations\\IApplicationService.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Configurations\\IApplicationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwB4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:33:19.217Z",
+              "WhenOpened": "2025-03-24T18:03:51.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetRolesQueryHandler.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryHandler.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryHandler.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:43:36.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRoleCommandResponse.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandResponse.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandResponse.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:35:39.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Infrastructure\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Infrastructure\\ServiceRegistration.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Infrastructure\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Infrastructure\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBwAAABHAAAAAAAAAA==",
+              "Title": "DeleteRoleCommandRequest.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandRequest.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandRequest.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T12:42:45.804Z",
+              "WhenOpened": "2025-03-24T18:37:14.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BasketsController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
-              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAtwDIAAACMAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DeleteRoleCommandResponse.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandResponse.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandResponse.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:15:06.629Z",
+              "WhenOpened": "2025-03-24T18:37:34.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AuthorizeDefinitionConstants.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAyAAAAAAAAAA==",
+              "Title": "UpdateRoleCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T10:12:36.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthorizeDefinitionAttribute.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\CustomAttributes\\AuthorizeDefinitionAttribute.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\CustomAttributes\\AuthorizeDefinitionAttribute.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\CustomAttributes\\AuthorizeDefinitionAttribute.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\CustomAttributes\\AuthorizeDefinitionAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T08:00:04.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Services\\OrderService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\OrderService.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Services\\OrderService.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAkwIoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:50:47.29Z",
+              "WhenOpened": "2025-03-24T18:40:16.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAADMAAACHAAAAAAAAAA==",
+              "Title": "UpdateRoleCommandResponse.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandResponse.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandResponse.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:38:16.924Z",
+              "WhenOpened": "2025-03-24T18:40:56.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateRoleCommandRequest.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandRequest.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandRequest.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:40:42.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetRoleByIdQueryResponse.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryResponse.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryResponse.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:43:01.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetRoleByIdQueryRequest.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryRequest.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryRequest.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:42:48.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetRoleByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryHandler.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:42:05.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "CompletedOrderDto.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Order\\CompletedOrderDto.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\DTOs\\Order\\CompletedOrderDto.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Order\\CompletedOrderDto.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\DTOs\\Order\\CompletedOrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAYAAAAAAAAAA==",
+              "Title": "GetRolesQueryResponse.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryResponse.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryResponse.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:33:55.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IOrderService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IOrderService.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Services\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:43:23.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CompletedOrderCommandHandler.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandHandler.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandHandler.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:35:45.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IMailService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IMailService.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IMailService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IMailService.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Services\\IMailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:11:43.327Z"
+              "WhenOpened": "2025-03-24T18:44:32.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "MailService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Infrastructure\\Services\\MailService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Infrastructure\\Services\\MailService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Infrastructure\\Services\\MailService.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Infrastructure\\Services\\MailService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBUAAABxAAAAAAAAAA==",
+              "Title": "GetRolesQueryRequest.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryRequest.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryRequest.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T12:11:50.604Z"
+              "WhenOpened": "2025-03-24T18:44:18.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GetOrderByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Services\\RoleService.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\RoleService.cs",
+              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T08:23:58.964Z"
+              "WhenOpened": "2025-03-24T17:01:42.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetOrderByIdQueryRequest.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryRequest.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryRequest.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryRequest.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IRoleService.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IRoleService.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IRoleService.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Services\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T08:47:08.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GetOrderByIdQueryResponse.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryResponse.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryResponse.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryResponse.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\Order\\GetOrderById\\GetOrderByIdQueryResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T08:24:47.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SingleOrder.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Order\\SingleOrder.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\DTOs\\Order\\SingleOrder.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\Order\\SingleOrder.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\DTOs\\Order\\SingleOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T08:50:08.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAQwFAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:31:34.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NewCommerceDb.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:48:02.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CompletedOrderCommandRequest.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandRequest.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandRequest.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\Order\\CompletedOrder\\CompletedOrderCommandRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:37:06.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20250318075110_mig3.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Migrations\\20250318075110_mig3.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Migrations\\20250318075110_mig3.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Migrations\\20250318075110_mig3.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Migrations\\20250318075110_mig3.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:51:10.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Entitys\\Order.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Domain\\Entitys\\Order.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Entitys\\Order.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Domain\\Entitys\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:46:04.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CompletedOrder.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Entitys\\CompletedOrder.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Domain\\Entitys\\CompletedOrder.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Entitys\\CompletedOrder.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Domain\\Entitys\\CompletedOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:12:43.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CompletedOrderReadRepository.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderReadRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderReadRepository.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderReadRepository.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:23:27.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CompletedOrderWriteRepository.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderWriteRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderWriteRepository.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderWriteRepository.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\CompletedOrder\\CompletedOrderWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:26:23.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ICompletedOrderWriteRepository.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderWriteRepository.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderWriteRepository.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderWriteRepository.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderWriteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:17:36.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ICompletedOrderReadRepository.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderReadRepository.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderReadRepository.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderReadRepository.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Repositoryes\\CompletedOrder\\ICompletedOrderReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T07:16:36.709Z"
+              "WhenOpened": "2025-03-24T16:59:14.562Z",
+              "EditorCaption": ""
             }
           ]
         }
