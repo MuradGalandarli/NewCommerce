@@ -4823,3 +4823,97 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP meth
 2025-03-24 22:49:24.838 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 204.6012ms
 2025-03-24 22:49:25.118 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
 2025-03-24 22:49:25.189 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.0517ms
+2025-03-25 12:16:49.880 +04:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-25 12:16:49.994 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-25 12:16:50.035 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-25 12:16:50.087 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-03-25 12:16:50.090 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-03-25 12:16:50.113 +04:00 [INF] Applying migration '20250325081635_mig4'.
+2025-03-25 12:16:50.273 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Menus" (
+    "Id" uuid NOT NULL,
+    "Name" text NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Menus" PRIMARY KEY ("Id")
+);
+2025-03-25 12:16:50.284 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Endpoints" (
+    "Id" uuid NOT NULL,
+    "ActionType" text NOT NULL,
+    "HttpType" text NOT NULL,
+    "Definition" text NOT NULL,
+    "Code" text NOT NULL,
+    "MenuId" uuid NOT NULL,
+    "CreateDate" timestamp with time zone NOT NULL,
+    "UpdateDate" timestamp with time zone NOT NULL,
+    CONSTRAINT "PK_Endpoints" PRIMARY KEY ("Id"),
+    CONSTRAINT "FK_Endpoints_Menus_MenuId" FOREIGN KEY ("MenuId") REFERENCES "Menus" ("Id") ON DELETE CASCADE
+);
+2025-03-25 12:16:50.292 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "AppRoleEndpoint" (
+    "AppRolesId" text NOT NULL,
+    "EndpointsId" uuid NOT NULL,
+    CONSTRAINT "PK_AppRoleEndpoint" PRIMARY KEY ("AppRolesId", "EndpointsId"),
+    CONSTRAINT "FK_AppRoleEndpoint_AspNetRoles_AppRolesId" FOREIGN KEY ("AppRolesId") REFERENCES "AspNetRoles" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_AppRoleEndpoint_Endpoints_EndpointsId" FOREIGN KEY ("EndpointsId") REFERENCES "Endpoints" ("Id") ON DELETE CASCADE
+);
+2025-03-25 12:16:50.295 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_AppRoleEndpoint_EndpointsId" ON "AppRoleEndpoint" ("EndpointsId");
+2025-03-25 12:16:50.298 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Endpoints_MenuId" ON "Endpoints" ("MenuId");
+2025-03-25 12:16:50.299 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20250325081635_mig4', '8.0.10');
+2025-03-25 13:46:27.384 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 13:46:27.870 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-25 13:46:27.872 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-25 13:46:27.930 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 13:46:27.931 +04:00 [INF] Hosting environment: Development
+2025-03-25 13:46:27.933 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-25 13:46:28.586 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-25 13:46:28.921 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 341.7137ms
+2025-03-25 13:46:28.930 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 13:46:28.945 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 16.4399ms
+2025-03-25 13:46:28.950 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-25 13:46:29.019 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.4149ms
+2025-03-25 13:46:29.522 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-25 13:46:29.558 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.2449ms
+2025-03-25 13:47:42.024 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 13:47:42.383 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-25 13:47:42.384 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-25 13:47:42.449 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 13:47:42.450 +04:00 [INF] Hosting environment: Development
+2025-03-25 13:47:42.450 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-25 13:47:42.881 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-25 13:47:43.109 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 234.3119ms
+2025-03-25 13:47:43.184 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 13:47:43.197 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 13.8042ms
+2025-03-25 13:47:43.204 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-25 13:47:43.251 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.1147ms
+2025-03-25 13:47:43.652 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-25 13:47:43.685 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.3048ms

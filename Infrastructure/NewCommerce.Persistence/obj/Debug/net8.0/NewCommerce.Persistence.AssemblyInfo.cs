@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewCommerce.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5f4393a7a639e3ab066ce3fb87faf5b80e87ddf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89ae35a1ba242a369091c4914c022831c46578ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewCommerce.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewCommerce.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

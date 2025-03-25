@@ -205,6 +205,18 @@
         }
       }
     },
+    "/api/AuthorizationEndpoints": {
+      "post": {
+        "tags": [
+          "AuthorizationEndpoints"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Baskets": {
       "get": {
         "tags": [

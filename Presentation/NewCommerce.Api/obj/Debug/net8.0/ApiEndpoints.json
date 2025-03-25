@@ -116,6 +116,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthorizationEndpointsController",
+    "Method": "Post",
+    "RelativePath": "api/AuthorizationEndpoints",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.BasketsController",
     "Method": "GetBasketItems",
     "RelativePath": "api/Baskets",

@@ -10,6 +10,8 @@ using NewCommerce.Application.Repositoryes;
 using NewCommerce.Application.Repositoryes.Basket;
 using NewCommerce.Application.Repositoryes.BasketItem;
 using NewCommerce.Application.Repositoryes.CompletedOrder;
+using NewCommerce.Application.Repositoryes.Endpoint;
+using NewCommerce.Application.Repositoryes.Menu;
 using NewCommerce.Domain.Entitys.Common;
 using NewCommerce.Domain.Identity;
 using NewCommerce.Persistence.Context;
@@ -17,10 +19,13 @@ using NewCommerce.Persistence.Repositoryes;
 using NewCommerce.Persistence.Repositoryes.Basket;
 using NewCommerce.Persistence.Repositoryes.BasketItem;
 using NewCommerce.Persistence.Repositoryes.CompletedOrder;
+using NewCommerce.Persistence.Repositoryes.Endpoint;
 using NewCommerce.Persistence.Repositoryes.InvoiceFile;
+using NewCommerce.Persistence.Repositoryes.Menu;
 using NewCommerce.Persistence.Services;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -75,6 +80,12 @@ namespace NewCommerce.Persistence
             services.AddScoped<ICompletedOrderReadRepository, CompletedOrderReadRepository>();
             services.AddScoped<ICompletedOrderWriteRepository, CompletedOrderWriteRepository>();
             services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IMenuReadRepository,MenuReadRepository>();
+            services.AddScoped<IMenuWriteRepository,MenuWriteRepository>();
+            services.AddScoped<IEndpointWriteRepository,EndpointWriteRepository>();
+            services.AddScoped<IEndpointReadRepository, EndpointReadRepository>();
+            services.AddScoped<IAuthorizationEndpointService, AuthorizationEndpointService>();
+
 
 
         }

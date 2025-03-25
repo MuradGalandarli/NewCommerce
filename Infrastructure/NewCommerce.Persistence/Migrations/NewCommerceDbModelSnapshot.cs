@@ -22,6 +22,21 @@ namespace NewCommerce.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("AppRoleEndpoint", b =>
+                {
+                    b.Property<string>("AppRolesId")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("EndpointsId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("AppRolesId", "EndpointsId");
+
+                    b.HasIndex("EndpointsId");
+
+                    b.ToTable("AppRoleEndpoint");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -263,6 +278,65 @@ namespace NewCommerce.Persistence.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.Endpoint", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("ActionType")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Definition")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("HttpType")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("MenuId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MenuId");
+
+                    b.ToTable("Endpoints");
+                });
+
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.Menu", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdateDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Menus");
+                });
+
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
                 {
                     b.Property<Guid>("Id")
@@ -451,6 +525,21 @@ namespace NewCommerce.Persistence.Migrations
                     b.HasDiscriminator().HasValue("ProductImageFile");
                 });
 
+            modelBuilder.Entity("AppRoleEndpoint", b =>
+                {
+                    b.HasOne("NewCommerce.Domain.Identity.AppRole", null)
+                        .WithMany()
+                        .HasForeignKey("AppRolesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("NewCommerce.Domain.Entitys.Endpoint", null)
+                        .WithMany()
+                        .HasForeignKey("EndpointsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("NewCommerce.Domain.Identity.AppRole", null)
@@ -543,6 +632,17 @@ namespace NewCommerce.Persistence.Migrations
                     b.Navigation("Order");
                 });
 
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.Endpoint", b =>
+                {
+                    b.HasOne("NewCommerce.Domain.Entitys.Menu", "Menu")
+                        .WithMany("Endpoints")
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Menu");
+                });
+
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
                 {
                     b.HasOne("NewCommerce.Domain.Entitys.Basket", "Basket")
@@ -575,6 +675,11 @@ namespace NewCommerce.Persistence.Migrations
 
                     b.Navigation("Order")
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("NewCommerce.Domain.Entitys.Menu", b =>
+                {
+                    b.Navigation("Endpoints");
                 });
 
             modelBuilder.Entity("NewCommerce.Domain.Entitys.Order", b =>
