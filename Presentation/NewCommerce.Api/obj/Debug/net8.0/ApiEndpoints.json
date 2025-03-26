@@ -117,12 +117,34 @@
   },
   {
     "ContainingType": "NewCommerce.Api.Controllers.AuthorizationEndpointsController",
-    "Method": "Post",
+    "Method": "AssignRoleEndpoint",
     "RelativePath": "api/AuthorizationEndpoints",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "assignRoleEndpointCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AuthorizationEndpoint.AssingRoleEndpoint.AssignRoleEndpointCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.AuthorizationEndpointsController",
+    "Method": "GetRolesToEndpoint",
+    "RelativePath": "api/AuthorizationEndpoints/GetRolesToEndpoint",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolesToEndpointQueryRequest",
+        "Type": "NewCommerce.Application.Features.Queries.GetRolesToEndpoints.GetRolesToEndpointQueryRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -522,6 +544,59 @@
       {
         "Name": "createUserCommandRequest",
         "Type": "NewCommerce.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
+    "Method": "AssignRoleToUser",
+    "RelativePath": "api/Users/assign-role-to-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignRoleToUserCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.AppUser.AssignRoleToUser.AssignRoleToUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.UsersController",
+    "Method": "GetRolesToUser",
+    "RelativePath": "api/Users/get-roles-to-user/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

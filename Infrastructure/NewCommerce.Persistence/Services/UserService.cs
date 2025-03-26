@@ -8,6 +8,7 @@ using NewCommerce.Application.Helpers;
 using NewCommerce.Domain.Identity;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,8 @@ namespace NewCommerce.Persistence.Services
     public class UserService : IUserService
     {
         private UserManager<AppUser> _userManager;
+
+     
 
         public UserService(UserManager<AppUser> userManager)
         {
@@ -79,5 +82,46 @@ namespace NewCommerce.Persistence.Services
 
         }
 
+        public async Task<List<ListUser>> GetAllUsersAsync(int page, int size)
+        {
+
+            var users = _userManager.Users.Skip(page * size)
+                  .Take(size).ToList();
+
+        
+            return users.Select(user => new ListUser
+            {
+                Id = user.Id,
+                Email = user.Email,
+                Surname = user.NameSurname,
+                TwoFactorEnabled = user.TwoFactorEnabled,
+                Name = user.UserName
+
+            }).ToList();
+        }
+
+        public int TotalUsersCount => _userManager.Users.Count();
+
+        public async Task AssignRoleToUserAsnyc(string userId, string[] roles)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var userRoles = await _userManager.GetRolesAsync(user);
+                await _userManager.RemoveFromRolesAsync(user, userRoles);
+
+                await _userManager.AddToRolesAsync(user, roles);
+            }
+        }
+        public async Task<string[]> GetRolesToUserAsync(string userId)
+        {
+            AppUser user = await _userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var userRoles = await _userManager.GetRolesAsync(user);
+                return userRoles.ToArray();
+            }
+            return new string[] { };
+        }
     }
 }
