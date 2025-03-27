@@ -5405,3 +5405,20 @@ FROM "AspNetUsers" AS a
 2025-03-26 14:19:11.654 +04:00 [INF] Executed action NewCommerce.Api.Controllers.UsersController.GetAllUsers (NewCommerce.Api) in 3903.9956ms
 2025-03-26 14:19:11.659 +04:00 [INF] Executed endpoint 'NewCommerce.Api.Controllers.UsersController.GetAllUsers (NewCommerce.Api)'
 2025-03-26 14:19:11.696 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/api/Users?page=1&size=1 - 200 null application/json; charset=utf-8 4086.4469ms
+2025-03-27 16:10:18.220 +04:00 [INF] User profile is available. Using 'C:\Users\LENOVO\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-27 16:10:18.819 +04:00 [INF] Now listening on: https://localhost:7077
+2025-03-27 16:10:18.821 +04:00 [INF] Now listening on: http://localhost:5072
+2025-03-27 16:10:18.895 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-27 16:10:18.897 +04:00 [INF] Hosting environment: Development
+2025-03-27 16:10:18.898 +04:00 [INF] Content root path: D:\GitHub test\NewCommerce\Presentation\NewCommerce.Api
+2025-03-27 16:10:19.735 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/index.html - null null
+2025-03-27 16:10:20.083 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/index.html - 200 null text/html;charset=utf-8 354.6339ms
+2025-03-27 16:10:20.093 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-27 16:10:20.105 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 14.2716ms
+2025-03-27 16:10:20.111 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/_vs/browserLink - null null
+2025-03-27 16:10:20.170 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.3754ms
+2025-03-27 16:10:20.476 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - null null
+2025-03-27 16:10:20.504 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7077/swagger/favicon-32x32.png - null null
+2025-03-27 16:10:20.522 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-27 16:10:20.525 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/favicon-32x32.png - 200 628 image/png 21.6676ms
+2025-03-27 16:10:20.563 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7077/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.1587ms

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\GitHub test\\NewCommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\filters\\rolepermissionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\filters\\rolepermissionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\context\\newcommercedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\context\\newcommercedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\repositoryes\\endpoint\\iendpointreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\repositoryes\\endpoint\\iendpointreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|d:\\github test\\newcommerce\\presentation\\newcommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B960FADD-9840-433C-B0C1-B87E816BB5E9}|Presentation\\NewCommerce.Api\\NewCommerce.Api.csproj|solutionrelative:presentation\\newcommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\context\\newcommercedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\context\\newcommercedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|d:\\github test\\newcommerce\\infrastructure\\newcommerce.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\commands\\appuser\\assignroletouser\\assignroletousercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\features\\commands\\appuser\\assignroletouser\\assignroletousercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\abstractions\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\features\\queries\\appusers\\getallusers\\getalluserqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}|Infrastructure\\NewCommerce.Persistence\\NewCommerce.Persistence.csproj|solutionrelative:infrastructure\\newcommerce.persistence\\repositoryes\\menu\\menureadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\repositoryes\\endpoint\\iendpointreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\repositoryes\\endpoint\\iendpointreadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|d:\\github test\\newcommerce\\core\\newcommerce.application\\repositoryes\\menu\\imenureadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}|Core\\NewCommerce.Application\\NewCommerce.Application.csproj|solutionrelative:core\\newcommerce.application\\repositoryes\\menu\\imenureadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -238,7 +242,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AppRole.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Identity\\AppRole.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Domain\\Identity\\AppRole.cs",
@@ -247,8 +251,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T08:07:12.987Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -260,59 +263,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Program.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Program.cs",
-              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RolePermissionFilter.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Filters\\RolePermissionFilter.cs",
+              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Filters\\RolePermissionFilter.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Filters\\RolePermissionFilter.cs",
+              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Filters\\RolePermissionFilter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwC0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T10:12:07.033Z",
+              "WhenOpened": "2025-03-27T10:06:08.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:26:32.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAllUserQueryHandler.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAASwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:34:50.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAD4vyUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:35:20.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "NewCommerceDb.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
@@ -320,25 +284,99 @@
               "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Context\\NewCommerceDb.cs",
               "ViewState": "AgIAABgAAAAAAAAAAIA7wCwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:10:42.473Z",
+              "WhenOpened": "2025-03-25T08:10:42.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:40:10.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Services\\UserService.cs",
               "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\UserService.cs",
               "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Services\\UserService.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAwwBYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T08:43:07.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEndpointReadRepository.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:25:06.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Program.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Program.cs",
+              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T10:12:07.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAD4vyUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:35:20.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllUserQueryHandler.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
+              "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:34:50.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:26:32.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RolesController.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
@@ -346,12 +384,11 @@
               "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\RolesController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAuwB4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T18:03:51.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T18:03:51.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "GetRolesToUserQueryResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryResponse.cs",
@@ -359,12 +396,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:45:35.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:45:35.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "GetRolesToUserQueryRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryRequest.cs",
@@ -372,12 +408,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:45:22.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:45:22.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "GetRolesToUserQueryHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryHandler.cs",
@@ -385,12 +420,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetRolesToUser\\GetRolesToUserQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:44:21.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:44:21.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AssignRoleToUserCommandRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\AppUser\\AssignRoleToUser\\AssignRoleToUserCommandRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\AppUser\\AssignRoleToUser\\AssignRoleToUserCommandRequest.cs",
@@ -398,12 +432,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\AppUser\\AssignRoleToUser\\AssignRoleToUserCommandRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:42:57.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:42:57.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AssignRoleToUserCommandHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\AppUser\\AssignRoleToUser\\AssignRoleToUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\AppUser\\AssignRoleToUser\\AssignRoleToUserCommandHandler.cs",
@@ -411,12 +444,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\AppUser\\AssignRoleToUser\\AssignRoleToUserCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:42:05.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:42:05.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "GetAllUserQueryRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryRequest.cs",
@@ -424,25 +456,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:38:14.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:38:14.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAhwBIAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:40:10.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "GetAllUserQueryResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryResponse.cs",
@@ -450,12 +468,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Queries\\AppUsers\\GetAllUsers\\GetAllUserQueryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T09:12:23.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T09:12:23.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ListUser.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\DTOs\\User\\ListUser.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\DTOs\\User\\ListUser.cs",
@@ -463,12 +480,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\DTOs\\User\\ListUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:41:48.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:41:48.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
@@ -476,12 +492,11 @@
               "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\OrderController.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAkwDMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:31:57.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:31:57.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ApplicatonServicesController.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
               "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
@@ -489,12 +504,11 @@
               "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\ApplicatonServicesController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwBUAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:31:24.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:31:24.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "BasketsController.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
               "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
@@ -502,12 +516,11 @@
               "RelativeToolTip": "Presentation\\NewCommerce.Api\\Controllers\\BasketsController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAkwCIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:29:52.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:29:52.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AuthorizationEndpointService.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Services\\AuthorizationEndpointService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Services\\AuthorizationEndpointService.cs",
@@ -515,12 +528,11 @@
               "RelativeToolTip": "Infrastructure\\NewCommerce.Persistence\\Services\\AuthorizationEndpointService.cs",
               "ViewState": "AgIAABoAAAAAAAAAAIAwwCoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:56:21.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T08:56:21.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IAuthorizationEndpointService.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IAuthorizationEndpointService.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IAuthorizationEndpointService.cs",
@@ -528,12 +540,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Abstractions\\Services\\IAuthorizationEndpointService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:55:39.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T08:55:39.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "AssingRoleEndpointCommandHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssingRoleEndpointCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssingRoleEndpointCommandHandler.cs",
@@ -541,12 +552,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssingRoleEndpointCommandHandler.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T07:40:34.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T07:40:34.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AuthorizeDefinitionConstants.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
@@ -554,12 +564,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Application\\Consts\\AuthorizeDefinitionConstants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:30:21.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T08:30:21.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "AssignRoleEndpointCommandResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssignRoleEndpointCommandResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssignRoleEndpointCommandResponse.cs",
@@ -571,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Entitys\\Menu.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Domain\\Entitys\\Menu.cs",
@@ -579,12 +588,11 @@
               "RelativeToolTip": "Core\\NewCommerce.Domain\\Entitys\\Menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:01:01.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T08:01:01.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "GetRolesToEndpointQueryHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\GetRolesToEndpoints\\GetRolesToEndpointQueryHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\GetRolesToEndpoints\\GetRolesToEndpointQueryHandler.cs",
@@ -596,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "AssignRoleEndpointCommandRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssignRoleEndpointCommandRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\AuthorizationEndpoint\\AssingRoleEndpoint\\AssignRoleEndpointCommandRequest.cs",
@@ -608,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "AuthorizationEndpointsController.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Presentation\\NewCommerce.Api\\Controllers\\AuthorizationEndpointsController.cs",
               "RelativeDocumentMoniker": "Presentation\\NewCommerce.Api\\Controllers\\AuthorizationEndpointsController.cs",
@@ -620,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "GetRoleByIdQueryResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryResponse.cs",
@@ -632,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "GetRoleByIdQueryRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryRequest.cs",
@@ -644,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "GetRoleByIdQueryHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRoleById\\GetRoleByIdQueryHandler.cs",
@@ -656,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "GetRolesToEndpointQueryRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\GetRolesToEndpoints\\GetRolesToEndpointQueryRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\GetRolesToEndpoints\\GetRolesToEndpointQueryRequest.cs",
@@ -668,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "GetRolesToEndpointQueryResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\GetRolesToEndpoints\\GetRolesToEndpointQueryResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\GetRolesToEndpoints\\GetRolesToEndpointQueryResponse.cs",
@@ -680,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Endpoint.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Domain\\Entitys\\Endpoint.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Domain\\Entitys\\Endpoint.cs",
@@ -692,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "MenuReadRepository.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\Menu\\MenuReadRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\Menu\\MenuReadRepository.cs",
@@ -704,19 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IEndpointReadRepository.cs",
-              "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
-              "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
-              "ToolTip": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
-              "RelativeToolTip": "Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointReadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T08:25:06.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "IMenuReadRepository.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Menu\\IMenuReadRepository.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\Menu\\IMenuReadRepository.cs",
@@ -728,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "MenuWriteRepository.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\Menu\\MenuWriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\Menu\\MenuWriteRepository.cs",
@@ -740,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "IMenuWriteRepository.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Menu\\IMenuWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\Menu\\IMenuWriteRepository.cs",
@@ -752,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "EndpointWriteRepository.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Repositoryes\\Endpoint\\EndpointWriteRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Repositoryes\\Endpoint\\EndpointWriteRepository.cs",
@@ -764,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "IEndpointWriteRepository.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointWriteRepository.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Repositoryes\\Endpoint\\IEndpointWriteRepository.cs",
@@ -776,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "20250325081635_mig4.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Infrastructure\\NewCommerce.Persistence\\Migrations\\20250325081635_mig4.cs",
               "RelativeDocumentMoniker": "Infrastructure\\NewCommerce.Persistence\\Migrations\\20250325081635_mig4.cs",
@@ -788,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "CreateRoleCommandHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandHandler.cs",
@@ -800,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "DeleteRoleCommandHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandHandler.cs",
@@ -812,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "GetRolesQueryHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryHandler.cs",
@@ -824,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "CreateRoleCommandRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandRequest.cs",
@@ -836,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "CreateRoleCommandResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\CreateRole\\CreateRoleCommandResponse.cs",
@@ -848,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "DeleteRoleCommandRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandRequest.cs",
@@ -860,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "DeleteRoleCommandResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\DeleteRole\\DeleteRoleCommandResponse.cs",
@@ -872,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "UpdateRoleCommandHandler.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandHandler.cs",
@@ -884,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "UpdateRoleCommandResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandResponse.cs",
@@ -896,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "UpdateRoleCommandRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Commands\\Role\\UpdateRole\\UpdateRoleCommandRequest.cs",
@@ -908,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "GetRolesQueryResponse.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryResponse.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryResponse.cs",
@@ -920,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "GetRolesQueryRequest.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryRequest.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Features\\Queries\\Role\\GetRole\\GetRolesQueryRequest.cs",
@@ -932,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "D:\\GitHub test\\NewCommerce\\Core\\NewCommerce.Application\\Abstractions\\Services\\IRoleService.cs",
               "RelativeDocumentMoniker": "Core\\NewCommerce.Application\\Abstractions\\Services\\IRoleService.cs",

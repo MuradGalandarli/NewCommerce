@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using NewCommerce.Api.Configurations.ColumnWriters;
 using NewCommerce.Api.Exrensions;
+using NewCommerce.Api.Filters;
 using NewCommerce.Application;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Abstractions.Storage.Local;
@@ -44,9 +45,12 @@ AllowAnyMethod()
 
 ));
 
-
-builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>()).
-    AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>()).
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ValidationFilter>();
+    options.Filters.Add<RolePermissionFilter>();
+}).
+AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>()).
     ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
 
