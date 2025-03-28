@@ -85,6 +85,7 @@ namespace NewCommerce.Persistence
             services.AddScoped<IEndpointWriteRepository,EndpointWriteRepository>();
             services.AddScoped<IEndpointReadRepository, EndpointReadRepository>();
             services.AddScoped<IAuthorizationEndpointService, AuthorizationEndpointService>();
+            services.AddScoped<IProductService, ProductService>();
 
 
 

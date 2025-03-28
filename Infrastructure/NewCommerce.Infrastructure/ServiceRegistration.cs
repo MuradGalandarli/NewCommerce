@@ -27,6 +27,7 @@ namespace NewCommerce.Infrastructure
             services.AddScoped<ITokenHandler,Services.TokenHandler>();
             services.AddScoped <IMailService,MailService>();
             services.AddScoped <IApplicationService, ApplicationService>();
+            services.AddScoped<IQRCodeService, QRCodeService>();
 
             // services.AddScoped<IAzureStorage, AzureStorage> ();
 

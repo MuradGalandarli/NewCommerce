@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.EntityFrameworkCore;
 using NewCommerce.Application;
+using NewCommerce.Application.Abstractions.Services;
 using NewCommerce.Application.Abstractions.Storage;
 using NewCommerce.Application.Consts;
 using NewCommerce.Application.CustomAttributes;
@@ -35,10 +36,11 @@ namespace NewCommerce.Api.Controllers
     public class ProductController : ControllerBase
     {
         readonly IMediator _mediator;
-
-        public ProductController(IMediator mediator)
+        readonly IProductService _productService;
+        public ProductController(IMediator mediator, IProductService productService)
         {
             _mediator = mediator;
+            _productService = productService;
         }
 
         [HttpGet]
@@ -47,6 +49,14 @@ namespace NewCommerce.Api.Controllers
             var datas = await _mediator.Send(getAllProductQueryRequest);
             return Ok(datas);
         }
+
+        [HttpGet("qrcode/{productId}")]
+        public async Task<IActionResult> GetQrCodeToProduct([FromRoute] string productId)
+        {
+            var data = await _productService.QrCodeToProductAsync(productId);
+            return File(data, "image/png");
+        }
+
 
         [HttpPost("AddProduct")]
         [Authorize(AuthenticationSchemes = "Admin")]
