@@ -13,6 +13,7 @@ using NewCommerce.Application.Enums;
 using NewCommerce.Application.Features.Commands.Product.CreateProduct;
 using NewCommerce.Application.Features.Commands.Product.DeleteProduct;
 using NewCommerce.Application.Features.Commands.Product.UpdateProduct;
+using NewCommerce.Application.Features.Commands.Product.UpdateStockQrCodeToProduct;
 using NewCommerce.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage;
 using NewCommerce.Application.Features.Commands.ProductImageFile.DeleteProductImage;
 using NewCommerce.Application.Features.Commands.ProductImageFile.UploadProductImage;
@@ -55,6 +56,13 @@ namespace NewCommerce.Api.Controllers
         {
             var data = await _productService.QrCodeToProductAsync(productId);
             return File(data, "image/png");
+        }
+
+        [HttpPut("qrcode")]
+        public async Task<IActionResult> UpdateStockQrCodeToProduct(UpdateStockQrCodeToProductCommandRequest updateStockQrCodeToProductCommandRequest)
+        {
+            UpdateStockQrCodeToProductCommandResponse response = await _mediator.Send(updateStockQrCodeToProductCommandRequest);
+            return Ok(response);
         }
 
 

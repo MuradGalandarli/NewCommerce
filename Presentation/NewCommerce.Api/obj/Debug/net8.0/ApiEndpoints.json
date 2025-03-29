@@ -444,6 +444,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "UpdateStockQrCodeToProduct",
+    "RelativePath": "api/Product/qrcode",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateStockQrCodeToProductCommandRequest",
+        "Type": "NewCommerce.Application.Features.Commands.Product.UpdateStockQrCodeToProduct.UpdateStockQrCodeToProductCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewCommerce.Api.Controllers.ProductController",
+    "Method": "GetQrCodeToProduct",
+    "RelativePath": "api/Product/qrcode/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NewCommerce.Api.Controllers.RolesController",
     "Method": "GetRoles",
     "RelativePath": "api/Roles",
