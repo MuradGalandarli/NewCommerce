@@ -1,7 +1,8 @@
-
+﻿
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using NewCommerce.Api.Configurations.ColumnWriters;
@@ -16,13 +17,16 @@ using NewCommerce.Infrastructure.Filters;
 using NewCommerce.Infrastructure.Services;
 using NewCommerce.Infrastructure.Services.Storage.Local;
 using NewCommerce.Persistence;
+using NewCommerce.Persistence.Context;
 using NewCommerce.SignalR;
 using Serilog;
 using Serilog.Context;
 using Serilog.Core;
 using Serilog.Sinks.PostgreSQL;
+using System;
 using System.Diagnostics;
 using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +35,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
-builder.Services.AddSignalService   ();
+builder.Services.AddSignalService();
 
 //builder.Services.AddStorage<AzureStorage>();
 
@@ -111,13 +115,19 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var db = scope.ServiceProvider.GetRequiredService<NewCommerceDb>();
+    db.Database.Migrate();
 }
 
+
+// Configure the HTTP request pipeline.
+
+app.UseSwagger();
+    app.UseSwaggerUI();
+
+app.Urls.Add("http://*:5072");
 app.ConfigureExcetionHandler<Program>(app.Services.GetRequiredService<ILogger<Program>>());
 app.UseStaticFiles();
 app.UseSerilogRequestLogging();

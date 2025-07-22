@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using NewCommerce.Application.Abstractions.Hubs;
+using NewCommerce.Application.Consts;
 using NewCommerce.SignalR.Hubs;
 using System;
 using System.Collections.Generic;

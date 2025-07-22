@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewCommerce.SignalR
+namespace NewCommerce.Application.Consts
 {
     public static class ReceiceFunctionNames
     {
-        public const string ProductAddedMessage = "receiveProductAddEdMessage";
-        public const string OrderAddedMessage = "receiveOrderAddEdMessage";
+       public const string ProductAddedMessage = "productAddedMessage";
+       public const string OrderAddedMessage = "orderAddedMessage";
     }
 }

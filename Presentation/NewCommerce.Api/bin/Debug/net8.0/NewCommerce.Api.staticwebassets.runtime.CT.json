@@ -1,0 +1,71 @@
+{
+  "ContentRoots": [
+    "/app/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "files": {
+        "Children": {
+          "download.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/download.jpg"
+            },
+            "Patterns": null
+          },
+          "MuradGalandarli-1.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/MuradGalandarli-1.pdf"
+            },
+            "Patterns": null
+          },
+          "MuradGalandarli-2.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/MuradGalandarli-2.pdf"
+            },
+            "Patterns": null
+          },
+          "MuradGalandarli-3.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/MuradGalandarli-3.pdf"
+            },
+            "Patterns": null
+          },
+          "MuradGalandarli-4.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/MuradGalandarli-4.pdf"
+            },
+            "Patterns": null
+          },
+          "MuradGalandarli.pdf": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "files/MuradGalandarli.pdf"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}

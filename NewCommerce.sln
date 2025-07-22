@@ -9,13 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.Domain", "Core\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.Application", "Core\NewCommerce.Application\NewCommerce.Application.csproj", "{171ABE9D-0449-47E7-B5D2-4B73CDEE87FB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{98F31196-9A72-40D7-B7E2-76814A5A8D10}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrasturcture", "Infrasturcture", "{98F31196-9A72-40D7-B7E2-76814A5A8D10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.Infrastructure", "Infrastructure\NewCommerce.Infrastructure\NewCommerce.Infrastructure.csproj", "{CFD967E0-40D8-4828-94A1-C827F5CEB34C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.Persistence", "Infrastructure\NewCommerce.Persistence\NewCommerce.Persistence.csproj", "{9A0B90C8-CFE4-4F75-B6DD-C5D911909643}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6174DC68-8BC6-40DA-8BB0-8DFF638B6AC8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persentetion", "Persentetion", "{6174DC68-8BC6-40DA-8BB0-8DFF638B6AC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCommerce.Api", "Presentation\NewCommerce.Api\NewCommerce.Api.csproj", "{B960FADD-9840-433C-B0C1-B87E816BB5E9}"
 EndProject

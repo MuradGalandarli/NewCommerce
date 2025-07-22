@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.SignalR;
 using NewCommerce.Application.Abstractions.Hubs;
+using NewCommerce.Application.Consts;
 using NewCommerce.SignalR.Hubs;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace NewCommerce.SignalR.HubService
 
         public async Task OrderAddedMessageAsync(string message)
         {
-           await _hubContext.Clients.All.SendAsync(ReceiceFunctionNames.OrderAddedMessage,message);
+            await _hubContext.Clients.All.SendAsync(ReceiceFunctionNames.OrderAddedMessage, message);
         }
     }
 }

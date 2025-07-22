@@ -14,6 +14,6 @@ namespace NewCommerce.SignalR
         {
             webApplication.MapHub<ProductHub>("/product-hub");
             webApplication.MapHub<OrderHub>("/order-hub");
-        }
+        }   
     }
 }
